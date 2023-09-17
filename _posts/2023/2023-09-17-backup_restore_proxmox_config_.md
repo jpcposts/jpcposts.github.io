@@ -1,6 +1,6 @@
 ---
 title: Backup and Restore Proxmox Configuration Files
-date: 2023-09-17 01:00:00 -0500
+date: 2023-09-17 00:00:00 -0500
 categories: [proxmox, hypervisor, backup]
 tags: [proxmox, hypervisor, backup]
 ---
