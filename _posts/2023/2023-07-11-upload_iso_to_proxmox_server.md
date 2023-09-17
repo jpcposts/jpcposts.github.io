@@ -1,6 +1,6 @@
 ---
 title: How to Upload ISO Files to Proxmox Servers
-date: 2023-07-28 01:00:00 -0500
+date: 2023-07-11 01:00:00 -0500
 categories: [proxmox, hypervisor]
 tags: [proxmox, hypervisor]
 ---

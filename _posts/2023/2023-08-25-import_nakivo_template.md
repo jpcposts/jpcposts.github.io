@@ -1,6 +1,7 @@
 ---
 title: Importing Nakivo OVA Template on Proxmox Server
-date: 2023-08-09 01:00:00 -0500
+date: 2023-08-25
+ 01:00:00 -0500
 categories: [proxmox, nakivo, virtualization]
 tags: [proxmox, nakivo, virtualization]
 ---

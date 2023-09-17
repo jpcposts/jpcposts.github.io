@@ -1,6 +1,6 @@
 ---
 title: Resize vSphere VM Hard Drive
-date: 2023-07-13 01:00:00 -0500
+date: 2023-06-30 01:00:00 -0500
 categories: [virtualization]
 tags: [virtualization]
 ---

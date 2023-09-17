@@ -1,6 +1,7 @@
 ---
 title: RSAT Configuration on an Offline Windows 11 Machine
-date: 2023-07-29 05:00:00 -0500
+date: 2023-07-17
+ 05:00:00 -0500
 categories: [windows, offline]
 tags: [windows, offline]
 ---

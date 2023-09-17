@@ -1,6 +1,6 @@
 ---
 title: Nakivo Virtual Appliance Configuration in vCenter
-date: 2023-08-02 01:00:00 -0500
+date: 2023-08-05 01:00:00 -0500
 categories: [backup, virtualization]
 tags: [nakivo, vcenter, virtual appliance]
 ---

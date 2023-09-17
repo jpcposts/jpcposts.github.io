@@ -1,6 +1,6 @@
 ---
 title: Installing Homebridge on Synology NAS with Docker
-date: 2023-09-03 01:00:00 -0500
+date: 2023-08-18 01:00:00 -0500
 categories: [synology, homebridge, docker]
 tags: [synology, homebridge, docker]
 ---

@@ -1,6 +1,7 @@
 ---
 title: Verifying Hardware Compatibility with Proxmox VE 8.0
-date: 2023-07-21 01:00:00 -0500
+date: 2023-07-14
+ 01:00:00 -0500
 categories: [proxmox, hypervisor]
 tags: [proxmox, hypervisor]
 ---
