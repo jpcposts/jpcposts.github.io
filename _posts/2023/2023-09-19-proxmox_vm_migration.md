@@ -21,22 +21,22 @@ Before we begin, ensure you have the following in place:
 
 ### Step 1: Log in to the Proxmox Web Interface
 
-1. Open your web browser and log in to the Proxmox web interface of the source node.
+- Open your web browser and log in to the Proxmox web interface of the source node.
 
 ### Step 2: Select the VM to Migrate
 
-1. In the Proxmox web interface, navigate to the **Datacenter** section.
-2. Click on the down arrow to view the available nodes.
-3. Select the source node where your VM is currently running.
+- In the Proxmox web interface, navigate to the **Datacenter** section.
+- Click on the down arrow to view the available nodes.
+- Select the source node where your VM is currently running.
 
 ### Step 3: Start the Migration Wizard
 
-1. Click on the VM you want to migrate to select it.
-2. Right click on the VM and then select **Migrate**.
+- Click on the VM you want to migrate to select it.
+- Right click on the VM and then select **Migrate**.
 
 ### Step 4: Configure Migration Settings
 
-1. In the Migration Wizard, you'll see the following options:
+- In the Migration Wizard, you'll see the following options:
    - **Target Node**: Choose the target node where you want to migrate the VM.
    - **Storage**: Select the storage on the target node where you want to store the VM's disk files.
    - **Full Clone**: If you want to create a full clone of the VM on the target node, check this option.
@@ -44,26 +44,26 @@ Before we begin, ensure you have the following in place:
    - **With local storage**: Enable this option if the target node uses local storage.
    - **Tunnel**: Configure the migration tunnel settings if required (usually for remote migrations).
 
-2. Review and confirm your settings.
+- Review and confirm your settings.
 
 ### Step 5: Start the Migration
 
-1. Click the **Start** button to begin the migration process.
+- Click the **Start** button to begin the migration process.
 
 ### Step 6: Monitor the Migration Progress
 
-1. You can monitor the migration progress in the Proxmox web interface. The status will change from "migrate" to "running" once the migration is complete.
+- You can monitor the migration progress in the Proxmox web interface. The status will change from "migrate" to "running" once the migration is complete.
 
 ### Step 7: Verify the Migration
 
-1. Log in to the Proxmox web interface of the target node.
-2. Navigate to the **Datacenter** section.
-3. Click on the **Nodes** tab and select the target node.
-4. You should see the migrated VM listed in the VM list.
+- Log in to the Proxmox web interface of the target node.
+- Navigate to the **Datacenter** section.
+- Click on the **Nodes** tab and select the target node.
+- You should see the migrated VM listed in the VM list.
 
 ### Step 8: Post-Migration Checks
 
-1. After migrating the VM, perform any necessary post-migration checks to ensure it operates as expected on the new node.
+- After migrating the VM, perform any necessary post-migration checks to ensure it operates as expected on the new node.
 
 Congratulations! You've successfully migrated a Proxmox VM from one node to another. This process allows you to optimize your resource utilization and maintain high availability for your virtualized environment.
 
