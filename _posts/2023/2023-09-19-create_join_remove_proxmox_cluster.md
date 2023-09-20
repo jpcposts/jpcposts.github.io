@@ -15,23 +15,23 @@ Proxmox VE offers powerful clustering capabilities, allowing you to build and ma
 
 ### Step 1: Create a Cluster (On `proxmox1`)
 
-1. Navigate to **Datacenter** > **Cluster** > **Create Cluster** on `proxmox1`.
-2. Provide a **Cluster Name**, such as `ABCcluster`.
-3. Click the **Create** button to create the cluster.
+- Navigate to **Datacenter** > **Cluster** > **Create Cluster** on `proxmox1`.
+- Provide a **Cluster Name**, such as `ABCcluster`.
+- Click the **Create** button to create the cluster.
 
 ### Step 2: Retrieve Join Information
 
-1. In the newly created cluster, navigate to **Datacenter** > **Cluster** > **Create Cluster**.
-2. Click the **Join Information** button.
-3. Copy the provided cluster join information to your clipboard.
+- In the newly created cluster, navigate to **Datacenter** > **Cluster** > **Create Cluster**.
+- Click the **Join Information** button.
+- Copy the provided cluster join information to your clipboard.
 
 ### Step 3: Join a Cluster (On `proxmox2` or Target Node)
 
-1. On the node you want to add to the cluster (e.g., `proxmox2`), navigate to **Datacenter** > **Cluster** > **Create Cluster**.
-2. Click the **Join Cluster** button.
-3. Paste the copied cluster join information from `proxmox1`.
-4. Enter the password for `proxmox1`.
-5. Click **Join 'ABCcluster'** to initiate the joining process.
+- On the node you want to add to the cluster (e.g., `proxmox2`), navigate to **Datacenter** > **Cluster** > **Create Cluster**.
+- Click the **Join Cluster** button.
+- Paste the copied cluster join information from `proxmox1`.
+- Enter the password for `proxmox1`.
+- Click **Join 'ABCcluster'** to initiate the joining process.
 
 **Note**: The "Join Cluster" window may appear to hang, but the cluster join process typically takes only about 30-60 seconds. To confirm if `proxmox2` has successfully joined the cluster, check `proxmox1`.
 
@@ -44,7 +44,7 @@ Proxmox VE offers powerful clustering capabilities, allowing you to build and ma
 
 Before removing a node from the cluster, make sure to:
 
-- Delete or migrate any VMs that reside on the node you want to remove.
+- Delete or [migrate any VMs](https://blog.johnsonpremier.net/proxmox_vm_migration/) that reside on the node you want to remove.
 
 ### Step 2: SSH into a Running Node
 
