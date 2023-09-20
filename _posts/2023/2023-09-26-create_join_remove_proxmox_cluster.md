@@ -1,6 +1,6 @@
 ---
 title: Creating, Joining, and Removing Nodes in a Proxmox Cluster
-date: 2023-09-19 01:00:00 -0500
+date: 2023-09-26 01:00:00 -0500
 categories: [proxmox, hypervisor]
 tags: [proxmox, hypervisor]
 ---
