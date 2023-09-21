@@ -1,6 +1,6 @@
 ---
 title: Proxmox - Free vs. Paid Versions - Which One is Right for You?
-date: 2023-09-20 01:00:00 -0500
+date: 2023-09-29 01:00:00 -0500
 categories: [proxmox, hypervisor]
 tags: [proxmox, hypervisor]
 ---
