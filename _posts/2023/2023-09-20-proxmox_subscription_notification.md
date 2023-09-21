@@ -95,7 +95,7 @@ apt-get install --reinstall proxmox-widget-toolkit
 
 Please exercise caution when modifying system files, and consider the implications of removing the subscription notice. Always ensure you have a backup and understand how this change may affect your Proxmox environment.
 
-Remember that subscriptions support the development of Proxmox, so consider obtaining one to access additional features and support.
+Remember that subscriptions support the development of Proxmox, so consider obtaining one to access additional features and support!
 
 
 📝 For more information about Proxmox, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/).
