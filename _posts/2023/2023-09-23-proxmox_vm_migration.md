@@ -67,7 +67,7 @@ Before we begin, ensure you have the following in place:
 
 Congratulations! You've successfully migrated a Proxmox VM from one node to another. This process allows you to optimize your resource utilization and maintain high availability for your virtualized environment.
 
-Remember that proper planning, shared storage, and network connectivity between nodes are essential for smooth VM migrations in Proxmox.
+Remember that proper planning, shared storage, and network connectivity between nodes are essential for smooth VM migrations in Proxmox!
 
 
 📝 For more information about Proxmox, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/).
