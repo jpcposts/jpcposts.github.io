@@ -1,6 +1,6 @@
 ---
 title: How to Fix '\r' - Command Not Found Issue in RHEL
-date: 2023-09-25 01:00:00 -0500
+date: 2023-10-05 01:00:00 -0500
 categories: [linux, rhel]
 tags: [linux, rhel]
 ---
