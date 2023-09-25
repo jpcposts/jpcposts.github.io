@@ -1,6 +1,6 @@
 ---
 title: Creating an ISO Image from a Directory in RHEL 9
-date: 2023-09-25 01:00:00 -0500
+date: 2023-10-02 01:00:00 -0500
 categories: [linux, rhel]
 tags: [linux, rhel]
 ---
