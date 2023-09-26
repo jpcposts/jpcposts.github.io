@@ -5,12 +5,12 @@ categories: [virtual machine, vcenter, virtualization]
 tags: [virtual machine, vcenter, virtualization]
 ---
 
-![How to Fix the "Invalid OVF Checksum Algorithm" Error When Importing an OVA Package into vCenter](assets/img/posts/2023/error_importing_ova_file/error_importing_ova_file1.png)
+![How to Fix the "Invalid OVF Checksum Algorithm" Error When Importing an OVA Package into vCenter](/assets/img/posts/2023/error_importing_ova_file/error_importing_ova_file1.png)
 
 
 If you've encountered the error message "The provided manifest file is invalid: invalid ovf checksum algorithm: sha 256" while trying to import an OVA package into vCenter or vSphere, don't worry; we've got you covered. This error typically occurs due to compatibility issues between the OVA package and the virtualization platform. Here's a step-by-step guide to help you resolve this issue.
 
-![How to Fix the "Invalid OVF Checksum Algorithm" Error When Importing an OVA Package into vCenter](assets/img/posts/2023/error_importing_ova_file/error_importing_ova_file2.png)
+![How to Fix the "Invalid OVF Checksum Algorithm" Error When Importing an OVA Package into vCenter](/assets/img/posts/2023/error_importing_ova_file/error_importing_ova_file2.png)
 
 
 ## Resolution:
