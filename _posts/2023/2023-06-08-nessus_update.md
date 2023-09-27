@@ -2,7 +2,7 @@
 title: Nessus Update
 date: 2023-06-08 12:00:00 -0500
 categories: [windows, linux, security]
-tags: [nessus,vulnerability,windows]
+tags: [nessus,vulnerability,windows,linux]
 ---
 
 <img src="/assets/img/posts/2023/nessus-update/nessus-update.jpg" alt="Nessus Update" style="height:400px; width:600px;" />
@@ -35,7 +35,7 @@ tags: [nessus,vulnerability,windows]
 * Click “settings” and the version should now reflect the latest update.
   * If the version didn’t reflect the updated number, launch the Services application and restart the “Tenable Nessus” service, reboot and check again.
 
-## Reboot the machine and the Trellix/McAfee Settings Will be Re-enabled
+### Reboot the machine and the Trellix/McAfee Settings Will be Re-enabled
 
 <br>
 
@@ -100,7 +100,8 @@ systemctl daemon-reload
 * Click “settings” and the version should now reflect the latest update.
   * If the version didn’t reflect the updated number, reboot and check again.
 
-<br>
-<br>
 
   _Congratulations. That's it!! You have successfully updated the Nessus scanner._
+
+
+  📝 [Tenable Nessus Release Notes:](https://docs.tenable.com/release-notes/Content/nessus/nessus.htm) The official Tenable release notes provides great additional information about each update.
