@@ -27,7 +27,7 @@ Now that we understand the importance of OpenDNS, let's dive into the configurat
 
 ### Step 1: Sign Up for OpenDNS
 
-- Visit https://opendns.com 
+- Visit <https://opendns.com> 
 - Click on "Consumer" and select "Learn More."
 - Sign up under the "OpenDNS Home" option.
 - Create your account and confirm your email address once you receive the initial email.
