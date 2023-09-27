@@ -8,7 +8,7 @@ tags: [opendns, dns]
 ![Configuring OpenDNS for Enhanced Home Network Security](/assets/img/posts/2023/opendns_configuration/opendns_configuration.png)
 
 
-In today's interconnected world, securing your home network is paramount. One way to bolster your network's security is by configuring OpenDNS, a cloud-based Domain Name System (DNS) service that provides a layer of protection against malicious websites and content. This guide will walk you through the process of setting up OpenDNS on your small lab or home network and explain why it's a smart move.
+In today's interconnected world, securing your home network is paramount. One way to bolster your network's security is by configuring OpenDNS, a cloud-based Domain Name System (DNS) service that provides a layer of protection against malicious websites and content using OpenDNS Filtering. This guide will walk you through the process of setting up OpenDNS on your small lab or home network and explain why it's a smart move.
 
 
 ## Why Configure OpenDNS for Your Home Network?
