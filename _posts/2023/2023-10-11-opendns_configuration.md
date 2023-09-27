@@ -1,6 +1,6 @@
 ---
 title: Configuring OpenDNS for Enhanced Home Network Security
-date: 2023-09-26 01:00:00 -0500
+date: 2023-10-11 01:00:00 -0500
 categories: [opendns, dns]
 tags: [opendns, dns]
 ---
