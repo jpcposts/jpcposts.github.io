@@ -14,28 +14,35 @@ Data is the lifeblood of any organization, and ensuring its safety is paramount.
 
 Before we begin, ensure you have the following:
 
-1 A server running Red Hat Enterprise Linux 9 (RHEL 9).
-2 Sufficient storage capacity for your backups.
-3 Root or sudo access to the server.
+- A server running Red Hat Enterprise Linux 9 (RHEL 9).
+- Sufficient storage capacity for your backups.
+- Root or sudo access to the server.
 
 ## Step 1: Install Amanda
 
 To install Amanda on RHEL 9, open a terminal and run the following commands:
 
 ```bash
-sudo dnf install amanda-server amanda-client
+sudo dnf install amanda-server amanda-client -y
 ```
 This command installs the Amanda server and client components.
 
+Amanda is pulled from the `EPEL repository`, so ensure that this is configured first. If you need EPEL configured on a RHEL machine that is conencted to the internet, run the following comamnd : 
+
+```bash
+sudo dnf install \
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+```
+
 ## Step 2: Configure Amanda
 
-1 **Edit Amanda Configuration:** Open the Amanda configuration file for editing. The main configuration file is usually located at /etc/amanda/your-config-name/amanda.conf. You can use a text editor like nano or vim.
+**Edit Amanda Configuration:** Open the Amanda configuration file for editing. The main configuration file is usually located at /etc/amanda/your-config-name/amanda.conf. You can use a text editor like nano or vim.
 
 ```bash
 sudo nano /etc/amanda/<your-config-name>/amanda.conf
 ```
 
-2 **Set Configuration Options:** Customize the configuration file according to your backup requirements. Ensure you specify the following:
+**Set Configuration Options:** Customize the configuration file according to your backup requirements. Ensure you specify the following:
 - org (organization name).
 - mailto (email address to receive backup reports).
 - dumpuser (the user under which Amanda runs backups).
@@ -44,7 +51,7 @@ sudo nano /etc/amanda/<your-config-name>/amanda.conf
 
 - Save your changes and exit the editor.
 
-3 **Set Up Disklist:** Create a disklist file that specifies the systems and directories you want to back up. This file is typically located at /etc/amanda/<your-config-name>/disklist. Add entries in the following format:
+**Set Up Disklist:** Create a disklist file that specifies the systems and directories you want to back up. This file is typically located at /etc/amanda/<your-config-name>/disklist. Add entries in the following format:
 
 ```bash
 <system-name> <disk-device> [<mount-point>]
@@ -63,8 +70,8 @@ Amanda uses tapes or disk files for storing backups. You can configure tape stor
 
 ### For Tape Storage:
 
-1 Ensure your tape drive is properly connected and recognized by RHEL 9.
-2 Edit the Amanda amanda.conf file to specify the tape device:
+Ensure your tape drive is properly connected and recognized by RHEL 9.
+Edit the Amanda amanda.conf file to specify the tape device:
 
 ```bash
 tapedev "your-tape-device"
@@ -74,13 +81,13 @@ Save your changes.
 
 ### For Disk File Storage:
 
-1 Create a directory to store backups:
+Create a directory to store backups:
 
 ```bash
 sudo mkdir /backup
 ```
 
-2 Configure Amanda to use this directory as the backup storage. Edit the amanda.conf file:
+Configure Amanda to use this directory as the backup storage. Edit the amanda.conf file:
 
 ```bash
 infofile "/var/lib/amanda/<your-config-name>/curinfo"  # Use a directory on your backup storage disk.
