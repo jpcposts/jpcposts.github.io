@@ -53,7 +53,7 @@ Now, let's configure your router to use OpenDNS.
 
 ### Step 4: Verify OpenDNS Configuration
 
-- Visit https://welcome.opendns.com to check if your network is connected to OpenDNS servers.
+- Visit <https://welcome.opendns.com> to check if your network is connected to OpenDNS servers.
 
 If configured properly, you should see the below image.
 
@@ -62,7 +62,7 @@ If configured properly, you should see the below image.
 
 ### Step 5: Customize OpenDNS Settings
 
-- Visit https://dashboard.opendns.com, log in, and click "Add a network" to add your network.
+- Visit <https://dashboard.opendns.com>, log in, and click "Add a network" to add your network.
     - Give it a friendly name (e.g., "OpenDNS-Lab").
 - Click on your network's IP address to access more settings.
     - Under "Settings/Web Content Filtering," enable "Low" web content filtering initially. Adjust these settings as needed.
