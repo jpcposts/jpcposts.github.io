@@ -36,10 +36,10 @@ https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
 
 ## Step 2: Configure Amanda
 
-**Edit Amanda Configuration:** Open the Amanda configuration file for editing. The main configuration file is usually located at /etc/amanda/your-config-name/amanda.conf. You can use a text editor like nano or vim.
+**Edit Amanda Configuration:** Open the Amanda configuration file for editing. The main configuration file is usually located at /etc/amanda/your-config-name.conf. You can use a text editor like nano or vim.
 
 ```bash
-sudo nano /etc/amanda/<your-config-name>/amanda.conf
+sudo nano /etc/amanda/DailySet1/amanda.conf
 ```
 
 **Set Configuration Options:** Customize the configuration file according to your backup requirements. Ensure you specify the following:
@@ -49,17 +49,17 @@ sudo nano /etc/amanda/<your-config-name>/amanda.conf
 - dumpcycle (defines how frequently backups are run).
 - tapecycle (defines how frequently tapes are recycled).
 
-- Save your changes and exit the editor.
+Save your changes and exit the editor.
 
-**Set Up Disklist:** Create a disklist file that specifies the systems and directories you want to back up. This file is typically located at /etc/amanda/<your-config-name>/disklist. Add entries in the following format:
+**Set Up Disklist:** Create a disklist file that specifies the systems and directories you want to back up. This file is typically located at /etc/amanda/DailySet1/disklist. Add entries in the following format:
 
 ```bash
-<system-name> <disk-device> [<mount-point>]
+<system-name> <disk-device> [<mount-point>] [<dump-type>] 
 ```
 For Example:
 
 ```bash
-myserver /mnt/data
+myserver /mnt/data comp-root-tar
 ```
 
 Save the disklist file.
