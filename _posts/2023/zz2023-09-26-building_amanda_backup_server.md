@@ -45,7 +45,7 @@ sudo nano /etc/amanda/DailySet1/amanda.conf
 **Set Configuration Options:** Customize the configuration file according to your backup requirements. Ensure you specify the following:
 - org (organization name).
 - mailto (email address to receive backup reports).
-- dumpuser (the user under which Amanda runs backups).
+- dumpuser (the user under which Amanda runs backups; typically the default `amandabackup` user).
 - dumpcycle (defines how frequently backups are run).
 - tapecycle (defines how frequently tapes are recycled).
 
@@ -96,63 +96,28 @@ indexdir "/var/lib/amanda/<your-config-name>/index"    # Use a directory on your
 tapelist "/var/lib/amanda/<your-config-name>/tapelist"  # Use a directory on your backup storage disk.
 ```
 
+Comment out the tapelist if it is not necessary in your environment
+
 Save your changes.
 
 
-## Step 4: Create Amanda User and Group
-
-Amanda should run under its own user and group. Run these commands:
-
-```bash
-sudo groupadd -r amanda
-sudo useradd -g amanda -r amanda
-```
-
-
-**sudo groupadd -r amanda**
-
-**sudo:** A command that allows a user with appropriate permissions to execute commands with superuser privileges.
-
-**groupadd:** This is a command used to add a new group to the system.
-
-**-r:** This is an option that specifies that the group being added is a system group. System groups typically have lower numeric group IDs (GIDs) and are used for system processes or applications.
-
-**amanda:** This is the name of the group being created. In this case, it's named "amanda."
-
-This command creates a system group named "amanda." System groups often have specific purposes in Unix-like systems and may be used to manage permissions and access for system-related tasks or applications.
-
-**sudo useradd -g amanda -r amanda**
-
-**sudo:** As mentioned earlier, it's used to execute the command with superuser privileges.
-
-**useradd:** This command is used to add a new user to the system.
-
-**-g amanda:** This option specifies the initial login group for the user. In this case, the user is added to the "amanda" group.
-
-**-r:** Similar to the previous command, this option indicates that the user being added is a system user.
-
-**amanda:** This is the username of the new user being created.
-
-This command creates a system user named "amanda" and assigns them to the "amanda" group as their initial login group. System users are typically used for running specific system services or applications with limited permissions.
-
-
-
-
-## Step 5: Initialize Amanda
+## Step 4: Initialize Amanda
 
 Initialize Amanda to set up the necessary directories and files:
 
 ```bash
-sudo amcheck <your-config-name>
+sudo amcheck DailySet1
 ```
 
-## Step 6: Run Your First Backup
+## Step 5: Run Your First Backup
 
 Now, you're ready to perform your first backup:
 
 ```bash
-sudo amdump <your-config-name>
+sudo amdump DailySet1
 ```
+
+# STEP 5 IS FAILING; need to troubleshoot
 
 ## Conclusion
 
