@@ -45,7 +45,7 @@ sudo nano /etc/amanda/DailySet1/amanda.conf
 **Set Configuration Options:** Customize the configuration file according to your backup requirements. Ensure you specify the following:
 - org (organization name).
 - mailto (email address to receive backup reports).
-- dumpuser (the user under which Amanda runs backups; typically the default `amandabackup` user).
+- dumpuser (the user under which Amanda runs backups; typically you should use the default `amandabackup` user or `root`).
 - dumpcycle (defines how frequently backups are run).
 - tapecycle (defines how frequently tapes are recycled).
 
