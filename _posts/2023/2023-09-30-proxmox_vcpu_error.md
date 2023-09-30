@@ -27,7 +27,7 @@ Modify your VM's configuration to use two or fewer vCPUs. Here's how:
 - **Log in to the Proxmox web interface** using your credentials.
 - **Navigate to your VM** that's encountering the error.
 - **Click on the "Hardware" tab** to access the VM's hardware settings.
-- **Adjust the "Sockets" and "Cores" values** to use a maximum of two vCPUs under the [Processors] section.
+- **Adjust the "Sockets" and "Cores" values** to use a maximum of two vCPUs under the `Processors` section.
 - **Click "Apply"** to save the changes.
 - **Start the VM** again.
 
@@ -41,7 +41,7 @@ Encountering the "TASK ERROR: MAX 2 vcpus allowed per VM on this node" error in 
 📝 For more information about Proxmox, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/).
 
 
-
+📝 Visit this [proxmox forum](https://forum.proxmox.com/threads/how-to-know-how-many-vcpu-i-can-use-for-creating-vms.117832/) and this [proxmox forum](https://forum.proxmox.com/threads/sockets-vs-cores-vs-vcpus.56339/) for more details about sockets, cores, vcpus, and much more.
 
 
 
