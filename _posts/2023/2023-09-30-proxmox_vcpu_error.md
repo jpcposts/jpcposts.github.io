@@ -1,5 +1,5 @@
 ---
-title: How to Resolve "TASK ERROR - MAX 2 vcpus allowed per VM on this node" in Proxmox
+title: Resolve "TASK ERROR - MAX 2 vcpus allowed per VM on this node" in Proxmox
 date: 2023-09-30 01:00:00 -0500
 categories: [proxmox, virtualization, troubleshooting]
 tags: [proxmox, virtualization, troubleshooting]
