@@ -1,6 +1,6 @@
 ---
 title: Join CentOS 9 / RHEL 9 to Active Directory Domain
-date: 2023-10-01 01:00:00 -0500
+date: 2023-10-20 01:00:00 -0500
 categories: [centos, rhel, active_directory, windows_server, integration]
 tags: [centos, rhel, active_directory, windows_server, integration]
 ---
@@ -94,7 +94,7 @@ You can now test the Active Directory integration by logging in with an AD usern
 id YOUR_DOMAIN\\AD_USERNAME
 ```
 
-Replace YOUR_DOMAIN with your Active Directory domain and AD_USERNAME with the username you want to test.
+Replace `YOUR_DOMAIN` with your Active Directory domain and `AD_USERNAME` with the username you want to test.
 
 # Conclusion
 
