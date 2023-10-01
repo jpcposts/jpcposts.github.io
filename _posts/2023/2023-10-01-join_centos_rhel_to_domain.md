@@ -90,7 +90,9 @@ sudo systemctl restart sssd
 
 You can now test the Active Directory integration by logging in with an AD username. Use the id command:
 
+```bash
 id YOUR_DOMAIN\\AD_USERNAME
+```
 
 Replace YOUR_DOMAIN with your Active Directory domain and AD_USERNAME with the username you want to test.
 
