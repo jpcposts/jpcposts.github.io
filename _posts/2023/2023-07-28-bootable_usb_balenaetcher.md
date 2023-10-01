@@ -30,6 +30,8 @@ Follow these simple steps to create a bootable USB drive using balenaEtcher:
 8. **Wait for the Process to Complete**: The flashing process may take some time, depending on the size of the bootable image and the speed of your USB drive. Wait for balenaEtcher to complete the process.<br>
 9. **Eject the USB Drive**: Once the flashing process is done, balenaEtcher will automatically eject the USB drive. You now have a bootable USB drive ready for use!<br>
 
+[Rufus](https://rufus.ie/en/) is an alternative application that will allow you to create a bootable USB drive.
+
 ## Conclusion
 
 Congratulations! You have successfully created a bootable USB drive using balenaEtcher. This versatile tool simplifies the process of creating bootable USB drives, making it easier for you to install operating systems and perform various system tasks.
