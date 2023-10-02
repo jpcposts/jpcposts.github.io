@@ -42,4 +42,15 @@ xfreerdp /u:<Username> /v:<IP_Address_or_Hostname>
 - Replace `<Username>` with your Windows username.
 
 
+## Step 4: Connect and Enjoy!
+
+Once you've entered the appropriate command with your desired options, press Enter. xfreerdp will initiate the RDP connection to the Windows system, and you'll be prompted to enter your Windows password.
+
+After a successful login, you'll have remote access to the Windows system from your RHEL 9 terminal. You can perform tasks, manage the remote desktop, and use applications just as if you were physically at the Windows machine.
+
+
+## Conclusion
+
+xfreerdp is a powerful tool that simplifies remote desktop access from your RHEL 9 system to Windows. With its various options, you can customize your remote sessions to suit your needs. Whether you're a system administrator managing remote servers or simply need occasional access to your Windows desktop, xfreerdp may be a great tool for you.
+
 📝 For more information about Proxmox, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp).
