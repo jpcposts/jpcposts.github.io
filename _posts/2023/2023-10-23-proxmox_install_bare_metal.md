@@ -1,6 +1,6 @@
 ---
 title: How to Install Proxmox VE on Bare Metal Machine
-date: 2023-10-01 01:00:00 -0500
+date: 2023-10-23 01:00:00 -0500
 categories: [proxmox, virtualization]
 tags: [proxmox, virtualization]
 ---
