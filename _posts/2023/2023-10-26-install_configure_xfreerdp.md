@@ -1,6 +1,6 @@
 ---
 title: Install and Use xfreerdp in RHEL 9
-date: 2023-10-01 01:00:00 -0500
+date: 2023-10-26 01:00:00 -0500
 categories: [rhel, centos, rdp]
 tags: [rhel, centos, rdp]
 ---
@@ -53,4 +53,4 @@ After a successful login, you'll have remote access to the Windows system from y
 
 xfreerdp is a powerful tool that simplifies remote desktop access from your RHEL 9 system to Windows. With its various options, you can customize your remote sessions to suit your needs. Whether you're a system administrator managing remote servers or simply need occasional access to your Windows desktop, xfreerdp may be a great tool for you.
 
-📝 For more information about Proxmox, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp).
+📝 For more information about xfreerdp, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp).
