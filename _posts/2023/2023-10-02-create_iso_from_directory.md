@@ -8,7 +8,7 @@ tags: [linux, rhel]
 ![Creating an ISO Image from a Directory in RHEL 9](/assets/img/posts/2023/create_iso_from_directory/create_iso_from_directory.png)
 
 
-In Red Hat Enterprise Linux (RHEL) 9, you can easily create an ISO image from a directory using the `mkisofs` utility. This can be incredibly useful for archiving data or preparing files for distribution. Here's a step-by-step guide on how to create an ISO image from a directory in RHEL 8:
+In Red Hat Enterprise Linux (RHEL) 9, you can easily create an ISO image from a directory using the `mkisofs` utility. This can be incredibly useful for archiving data or preparing files for distribution. Here's a step-by-step guide on how to create an ISO image from a directory in RHEL 9:
 
 ## Prerequisites
 
@@ -52,13 +52,13 @@ This command will display information about the ISO image, including its volume 
 
 ## Conclusion
 
-Creating an ISO image from a directory in RHEL 8 is a straightforward process, thanks to the mkisofs utility. Whether you need to archive data, distribute files, or perform system backups, this method provides a convenient way to package your content into a single ISO file. Once you have your ISO image, you can burn it to a CD/DVD or mount it as a loopback device for further exploration or distribution.
+Creating an ISO image from a directory in RHEL 9 is a straightforward process, thanks to the mkisofs utility. Whether you need to archive data, distribute files, or perform system backups, this method provides a convenient way to package your content into a single ISO file. Once you have your ISO image, you can burn it to a CD/DVD or mount it as a loopback device for further exploration or distribution.
 
 In the world of system administration and software distribution, there are several scenarios where creating an ISO image from a directory becomes invaluable. One common use case is for system recovery and backup purposes. By bundling critical data, configurations, or installation files into a single ISO, you ensure that essential components are readily accessible, making system restoration a breeze.
 
 Additionally, ISO images are a favored format for distributing software, especially in environments where downloading large files can be challenging. System administrators often use ISOs to package custom software, updates, or entire Linux distributions, simplifying deployment across multiple servers or machines. Furthermore, ISOs are a go-to choice for creating bootable media, whether it's for installing a new operating system, running diagnostic tools, or performing system rescue operations.
 
-In these scenarios, the ability to create ISO images from directories in RHEL 8 streamlines various administrative tasks and enhances system reliability!
+In these scenarios, the ability to create ISO images from directories in RHEL 9 streamlines various administrative tasks and enhances system reliability!
 
 
 📝 For more information about the mkisofs utility, visit the [mkisofs linux man page](https://linux.die.net/man/8/mkisofs).
