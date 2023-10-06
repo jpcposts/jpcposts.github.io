@@ -1,6 +1,6 @@
 ---
 title: RHEL 9 Networking Changes
-date: 2023-10-01 01:00:00 -0500
+date: 2023-10-29 01:00:00 -0500
 categories: [rhel, networking]
 tags: [rhel, networking]
 ---
