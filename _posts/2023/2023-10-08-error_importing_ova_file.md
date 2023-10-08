@@ -15,7 +15,7 @@ If you've encountered the error message "The provided manifest file is invalid: 
 
 ## Resolution:
 
-To resolve this error, we'll use VirtualBox as an intermediary to import and then re-export the OVA package using the "Open Virtualization 1.0" format, which is more compatible with vCenter and vSphere.
+To resolve this error, we'll use VirtualBox as an intermediary to import and then re-export the OVA package using the `Open Virtualization 1.0`format, which is more compatible with vCenter and vSphere.
 
 ### Step 1: Download and Install VirtualBox and Microsoft Visual C++ Redistributable Packages
 
@@ -50,7 +50,7 @@ To resolve this error, we'll use VirtualBox as an intermediary to import and the
 - Configure the network settings and click "Next."
 - Review the summary and click "Next."
 
-Congratulations! You've now successfully imported the OVA file that previously had compatibility issues with vCenter and vSphere environments. This workaround using VirtualBox as an intermediary should allow you to work with the OVA package seamlessly.
+Congratulations!!! You've now successfully imported the OVA file that previously had compatibility issues with vCenter and vSphere environments. This workaround using VirtualBox as an intermediary should allow you to work with the OVA package seamlessly.
 
 
 
