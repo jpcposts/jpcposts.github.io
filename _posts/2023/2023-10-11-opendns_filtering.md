@@ -56,7 +56,7 @@ In summary, OpenDNS filtering is a potent cybersecurity tool that empowers netwo
 
 
 
-📝 For more information about OpenDNS, visit the [OpenDNS Knowledge Base](https://support.opendns.com/hc/en-us/categories/204012807-OpenDNS-Knowledge-Base).
+📝 For more information about OpenDNS, visit the [OpenDNS Knowledge Base](https://support.opendns.com/hc/en-us/categories/204012807-OpenDNS-Knowledge-Base)!
 
 
 
