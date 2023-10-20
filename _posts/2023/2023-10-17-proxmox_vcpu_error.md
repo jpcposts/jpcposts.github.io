@@ -38,7 +38,7 @@ This adjustment will align your VM with the node's vCPU limitation, allowing it 
 Encountering the "TASK ERROR: MAX 2 vcpus allowed per VM on this node" error in Proxmox is a common issue that can be resolved adjusting your VM's configuration. Choose the solution that best fits your hardware and resource requirements to ensure smooth VM operation on your Proxmox cluster.
 
 
-📝 For more information about Proxmox, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/).
+📝 For more information about Proxmox, visit the [Proxmox VE Documentation Index](https://pve.proxmox.com/pve-docs/)!
 
 
 📝 Visit this [proxmox forum](https://forum.proxmox.com/threads/how-to-know-how-many-vcpu-i-can-use-for-creating-vms.117832/) and this [proxmox forum](https://forum.proxmox.com/threads/sockets-vs-cores-vs-vcpus.56339/) for more details about sockets, cores, vcpus, and much more.
