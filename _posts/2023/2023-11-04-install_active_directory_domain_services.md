@@ -1,6 +1,6 @@
 ---
 title: Install Active Directory Domain Services
-date: 2023-10-04 01:00:00 -0500
+date: 2023-11-04 01:00:00 -0500
 categories: [active_directory, windows, windows_server]
 tags: [active_directory, windows, windows_server]
 ---
