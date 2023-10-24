@@ -1,6 +1,6 @@
 ---
 title: Enabling Desktop Icons in RHEL 8
-date: 2023-10-04 01:00:00 -0500
+date: 2023-11-04 01:00:00 -0500
 categories: [linux, rhel8]
 tags: [linux, rhel8]
 ---
