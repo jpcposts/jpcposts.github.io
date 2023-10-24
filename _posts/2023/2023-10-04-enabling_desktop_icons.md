@@ -56,7 +56,7 @@ By following these steps, you can ensure that the AppStream repository is config
 
 <br>
 
-# Below is a guide to enable desktop icons in RHEL 8:
+# Below is A Guide to Enable Desktop Icons in RHEL 8:
 
 <br>
 
@@ -86,11 +86,8 @@ With the `desktop-icons` extension enabled, your GNOME desktop will now display 
 With the `desktop-icons` extension enabled, you have the flexibility to manage your desktop icons as per your preferences. You can:
 
 - **Add Icons:** Easily add icons to your desktop by right-clicking on the desktop and selecting `New Document` or `New Folder.`
-
 - **Remove Icons:** If you want to tidy up your desktop, right-click on the icon and select "Move to Trash."
-
 - **Rearrange Icons:** Click and drag icons to arrange them to your liking. This helps you keep your desktop organized.
-
 - **Create Shortcuts:** You can create shortcuts to your favorite applications or files by simply right-clicking on the icon and selecting "Add to Desktop."
 
 By enabling desktop icons, you can streamline your workflow and have quick access to the files and applications you need.
