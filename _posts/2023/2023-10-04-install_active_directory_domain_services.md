@@ -1,5 +1,5 @@
 ---
-title: Install Active Directory Domain Services (AD DS)
+title: Install Active Directory Domain Services
 date: 2023-10-04 01:00:00 -0500
 categories: [active_directory, windows, windows_server]
 tags: [active_directory, windows, windows_server]
@@ -10,11 +10,6 @@ tags: [active_directory, windows, windows_server]
 
 Active Directory Domain Services (AD DS) is a core component of Microsoft Windows Server that enables centralized management of users, groups, computers, and other network resources within an organization. It plays a pivotal role in creating and maintaining a secure, organized, and efficient network environment. Installing AD DS on a Windows Server 2022 is a crucial step in establishing a domain controller that can provide essential authentication, authorization, and directory services to users and devices in your network.
 
-Additionally, Tautulli acts as a robust notification system, alerting you to new content additions, playback issues, or even when your favorite media becomes available. With Tautulli's remote access feature, you can manage your Plex server from anywhere, ensuring that your media library is always up to date and accessible. Furthermore, its user-friendly interface makes it accessible for users of all levels, from beginners to tech enthusiasts.
-
-Overall, Tautulli not only elevates your Plex Media Server but also transforms your media streaming experience, ensuring you're always in control of your entertainment library. It's an essential tool for those who want to get the most out of their home media network.
-
-Tautulli is a fantastic tool for monitoring and tracking your Plex Media Server. It provides valuable insights into your media consumption habits and helps you keep tabs on your Plex server's performance. In this guide, we will walk you through the process of installing Tautulli on your Synology NAS device, ensuring you have full control over your Plex experience.
 
 ## Prerequisites
 Before you embark on installing Active Directory Domain Services (AD DS) on a Windows Server 2022, ensure you have met these prerequisites:
