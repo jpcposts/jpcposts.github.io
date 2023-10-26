@@ -1,6 +1,6 @@
 ---
 title: Configuring a New Domain Controller
-date: 2023-10-10 01:00:00 -0500
+date: 2023-11-10 01:00:00 -0500
 categories: [active_directory, windows, windows_server]
 tags: [active_directory, windows, windows_server]
 ---
