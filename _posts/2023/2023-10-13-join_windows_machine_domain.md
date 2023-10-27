@@ -1,5 +1,5 @@
 ---
-title: Configuring a New Domain Controller
+title: Join Windows Machine to Domain
 date: 2023-10-13 01:00:00 -0500
 categories: [active_directory, windows, windows_server]
 tags: [active_directory, windows, windows_server]
