@@ -8,7 +8,7 @@ tags: [active_directory, windows, windows_server]
 ![install_ad_ds0](/assets/img/posts/2023/install_active_directory_domain_services/install_ad_ds0.png)
 
 
-Joining a Windows machine to a domain is an essential step in integrating it into an Active Directory (AD) environment. This process ensures that the machine can authenticate users against the domain and access network resources. In this guide, we will explore two methods to join a Windows machine to a domain: using the GUI (Graphical User Interface) and PowerShell commands.
+Adding users to Active Directory (AD) is a common administrative task that allows organizations to manage user accounts and permissions effectively. In this guide, we'll explore two methods for adding Active Directory users: using the GUI (Graphical User Interface) and PowerShell commands.
 
 
 ## Join Windows Machine to Domain via GUI
@@ -108,4 +108,3 @@ Joining a Windows machine to a domain is a fundamental task when integrating Win
 The GUI method provides a user-friendly interface for domain joining and is recommended for users who prefer a graphical approach. On the other hand, the PowerShell method is ideal for automation or situations where you need to script the domain joining process.
 
 Whichever method you choose, successfully joining a machine to a domain is an essential step in managing user accounts, security policies, and network resources in a Windows domain environment.
-
