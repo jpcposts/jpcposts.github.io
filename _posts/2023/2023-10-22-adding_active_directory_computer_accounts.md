@@ -37,7 +37,7 @@ Show the current list of AD computers
 Get-ADComputer -Filter * | Format-Table DistinguishedName
 ```
 
-![add_computer_powershell0](assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell0.png)
+![add_computer_powershell0](/assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell0.png)
 
 Add a new computer called `JPCserver2`
 
@@ -45,7 +45,7 @@ Add a new computer called `JPCserver2`
 New-ADComputer -Name JPCserver2
 ```
 
-![add_computer_powershell1](assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell1.png)
+![add_computer_powershell1](/assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell1.png)
 
 Verify the newly added computer
 
@@ -53,7 +53,7 @@ Verify the newly added computer
 Get-ADComputer -Filter * | Format-Table DistinguishedName
 ```
 
-![add_computer_powershell2](assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell2.png)
+![add_computer_powershell2](/assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell2.png)
 
 
 Deleting computer accounts
@@ -65,7 +65,7 @@ Remove-ADComputer -Identity “CN=JPCserver2,CN=Computers,DC=srv,DC=world”
 
 - Choose `yes` when prompted.
 
-![add_computer_powershell3](assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell3.png)
+![add_computer_powershell3](/assets/img/posts/2023/adding_active_directory_computer_accounts/add_computer_powershell3.png)
 
 
 
