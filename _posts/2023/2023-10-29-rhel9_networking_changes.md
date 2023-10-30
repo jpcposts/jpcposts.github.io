@@ -17,7 +17,7 @@ In this guide, we will explore the changes in RHEL 9 networking and understand h
 
 For many years, Linux distributions, including RHEL, relied on ifcfg-files for network configuration. These files were located in `/etc/sysconfig/network-scripts/` and were used to define network interfaces and their settings. While ifcfg-files served their purpose, they had certain limitations, especially in complex networking environments.
 
-RHEL 9 brings a fundamental change to the network configuration paradigm by introducing keyfiles. Keyfiles are YAML-formatted configuration files that offer several advantages over the traditional ifcfg-files.
+RHEL 9 brings a fundamental change to the network configuration paradigm by introducing keyfiles. Keyfiles are YAML-formatted configuration files that offer several advantages over the traditional ifcfg-files!
 
 ## Benefits of Keyfiles
 
