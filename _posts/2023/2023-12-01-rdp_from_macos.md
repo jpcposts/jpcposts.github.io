@@ -1,6 +1,6 @@
 ---
 title: Connect to a Remote Windows System from MacOS 
-date: 2023-11-01 01:00:00 -0500
+date: 2023-12-01 01:00:00 -0500
 categories: [mac, windows, rdp]
 tags: [mac, windows, rdp]
 ---
