@@ -1,6 +1,6 @@
 ---
 title: Connect to a Remote Windows System from Linux Terminal using xfreerdp 
-date: 2023-10-28 01:00:00 -0500
+date: 2023-11-28 01:00:00 -0500
 categories: [rhel, linux, centos, rdp, terminal]
 tags: [rhel, linux, centos, rdp, terminal]
 ---
