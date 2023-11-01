@@ -1,8 +1,8 @@
 ---
 title: Connect to a Remote Windows System from Linux Terminal using xfreerdp 
 date: 2023-10-28 01:00:00 -0500
-categories: [rhel, linux, rdp, terminal]
-tags: [rhel, linux, rdp, terminal]
+categories: [rhel, linux, centos, rdp, terminal]
+tags: [rhel, linux, centos, rdp, terminal]
 ---
 
 ![rdp_from_linux_terminal1](/assets/img/posts/2023/rdp_from_linux_terminal/rdp_from_linux_terminal1.jpg)
@@ -43,13 +43,13 @@ Now, let's dive into the steps for connecting to a remote Windows system from yo
 xfreerdp /u:<username> /v:<remote_windows_ip_or_hostname>
 ```
 
-Replace `username` with your Windows username and `remote_windows_ip_or_hostname` with the IP address or hostname of the remote Windows machine. For example:
+Replace `username` with your Windows username and `remote_windows_ip_or_hostname` with the IP address or hostname of the remote Windows machine. **For example:**
 
 ```bash
 xfreerdp /u:user1 /v:192.168.1.113
 ```
 
-After entering the command, you will be prompted to enter your Windows password. Provide your password and press Enter.
+After entering the command, you will be prompted to enter your Windows password. Provide your password and press `Enter`.
 
 You may be prompted to `trust the above certificate` press `Y` then `Enter`
 
@@ -82,7 +82,7 @@ To disconnect from the remote Windows system, you can use the following key comb
 
 ## Conclusion
 
-Using the xfreerdp package, you can easily connect to a remote Windows system from your Linux command line. This is a convenient way to manage Windows machines when you're primarily working in a Linux environment. With the right credentials and a few simple commands, you can access the remote Windows desktop seamlessly.
+Using the xfreerdp package, you can easily connect to a remote Windows system from your Linux terminal. This is a convenient way to manage Windows machines when you're primarily working in a Linux environment. With the right credentials and a few simple commands, you can access the remote Windows desktop seamlessly.
 
 
 📝 For more information about xfreerdp, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp)!
