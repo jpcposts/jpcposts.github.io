@@ -5,9 +5,8 @@ categories: [mac, windows, rdp]
 tags: [mac, windows, rdp]
 ---
 
-![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos1.png/)
+![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos1.jpg)
 
-![How to Install Tautulli on Your Synology NAS](/assets/img/posts/2023/tautulli_config_synology_nas/tautulli_config_synology_nas1.png)
 
 Are you a macOS user who needs to access a Windows computer remotely? Remote Desktop Protocol (RDP) is a powerful solution that enables you to connect to a Windows machine from your macOS device. In this tutorial, we'll explore how to use RDP to establish a remote connection to a Windows computer from your Mac.
 
@@ -28,7 +27,7 @@ You will need a locally installed RDP client (a program that lets you connect to
 ) from the Mac App Store. Once you have it installed, you can proceed.
 
 
-![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos2.png/)
+![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos2.jpg)
 
 
 ## Launch and Configure Microsoft Remote Desktop Application
@@ -39,11 +38,11 @@ The only required information to provide is the PC name, which could be a hostna
 
 Next, click `Add` to complete the connection process.
 
-![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos3.png/)
+![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos3.jpg)
 
 You may start the RDP connection by double clicking or right clicking on the host then selecting `Connect`.
 
-![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos4.png/)
+![Connect to a Remote Windows System from MacOS](/assets/img/posts/2023/rdp_from_macos/rdp_from_macos4.jpg)
 
 
 
