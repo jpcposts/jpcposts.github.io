@@ -1,6 +1,6 @@
 ---
 title: Unleashing the Power of Slack 
-date: 2023-11-11 01:00:00 -0500
+date: 2023-12-04 01:00:00 -0500
 categories: [slack, messaging, communication]
 tags: [slack, messaging, communication]
 ---
