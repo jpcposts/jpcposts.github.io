@@ -58,7 +58,7 @@ Make your messages stand out with formatting options. Whether you're emphasizing
 - *Bold*: Wrap text with asterisks for bold.
 - _Italic_: Use underscores for italic.
 - `Code`: Backticks create inline code.
-- > Quote: Use the greater-than symbol for quoting.
+- > Quote: Use the greater-than (>) symbol for quoting.
 
 
 ## 5. Integration Superpowers
