@@ -107,4 +107,4 @@ Joining a Windows machine to a domain is a fundamental task when integrating Win
 
 The GUI method provides a user-friendly interface for domain joining and is recommended for users who prefer a graphical approach. On the other hand, the PowerShell method is ideal for automation or situations where you need to script the domain joining process.
 
-Whichever method you choose, successfully joining a machine to a domain is an essential step in managing user accounts, security policies, and network resources in a Windows domain environment.
+Whichever method you choose, successfully joining a machine to a domain is an essential step in managing user accounts, security policies, and network resources in a Windows domain environment!
