@@ -35,9 +35,7 @@ Personalize Alfred's appearance with different themes and layouts. Choose from v
 ## How to Get Started with Alfred
 
 1. **Download and Install Alfred**: Head to the [Alfred website](https://www.alfredapp.com/) to download and install Alfred on your Mac. Alfred offers both a free version with limited features and a Powerpack with advanced functionalities.
-
 2. **Learn Keyboard Shortcuts**: Get familiar with Alfred's keyboard shortcuts to maximize efficiency. Use the hotkey combination (default is Command + Space) to invoke Alfred and start navigating.
-
 3. **Explore and Customize**: Dive into Alfred's preferences to explore its extensive customization options. Experiment with workflows, configure features, and tailor Alfred to suit your workflow.
 
 ## Conclusion
