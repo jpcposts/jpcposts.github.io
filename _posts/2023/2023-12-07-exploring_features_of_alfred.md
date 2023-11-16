@@ -1,6 +1,6 @@
 ---
 title: Exploring the Features of Alfred on Mac 
-date: 2023-11-07 01:00:00 -0500
+date: 2023-12-07 01:00:00 -0500
 categories: [mac, alfred, productivity]
 tags: [mac, alfred, productivity]
 ---
