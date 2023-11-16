@@ -77,4 +77,4 @@ Connect your favorite tools directly to Slack! Integrations can automate workflo
 Slack is more than just a chat platform; it's a dynamic workspace with features designed to enhance collaboration and productivity. By leveraging these advanced features, you can transform your Slack experience and make the most out of this powerful tool.
 
 
-📝 For more information about Slacks, visit this [Slack blog](https://slack.com/blog/productivity/slick-features-and-capabilities-you-didnt-know-about-in-slack).
+📝 For more information about Slack, visit this [Slack blog](https://slack.com/blog/productivity/slick-features-and-capabilities-you-didnt-know-about-in-slack).
