@@ -87,4 +87,4 @@ Remove-ADUser -Identity “CN=JPCuser,CN=Users,DC=JPC,DC=net”
 
 Adding users to Active Directory is a fundamental task for network administrators. Whether you choose the GUI or PowerShell method depends on your preferences and specific use cases. The GUI offers simplicity and visual guidance, while PowerShell is powerful for automation and bulk operations.
 
-By following the steps provided in this guide, you can effectively add and manage user accounts in your Active Directory domain.
+By following the steps provided in this guide, you can effectively add and manage user accounts in your Active Directory domain!
