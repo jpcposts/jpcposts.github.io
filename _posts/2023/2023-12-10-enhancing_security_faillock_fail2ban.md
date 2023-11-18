@@ -1,6 +1,6 @@
 ---
 title: Enhancing Security with faillock and fail2ban
-date: 2023-11-10 01:00:00 -0500
+date: 2023-12-10 01:00:00 -0500
 categories: [rhel, security, ssh, faillock, fail2ban]
 tags: [rhel, security, ssh, faillock, fail2ban]
 ---
@@ -69,7 +69,7 @@ sudo systemctl start fail2ban
 To automatically ban an IP address after 3 failed login attempts, configure a jail in the `jail.conf` file:
 
 
-Add the below to the top of the config file : 
+Add the below to the top of the config file, after the initial set of commented information : 
 
 ```bash
 [blocktype]
