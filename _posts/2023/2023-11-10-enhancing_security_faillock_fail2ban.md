@@ -80,6 +80,7 @@ maxretry = 1
 findtime = 1
 ```
 
+
 | Parameter    | Description                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------|
 | [blocktype]  | Section header defining a jail for a particular type of block or behavior.                                    |
