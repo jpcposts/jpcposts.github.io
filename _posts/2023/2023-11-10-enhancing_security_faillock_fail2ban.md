@@ -1,6 +1,6 @@
 ---
 title: Enhancing Security with faillock and fail2ban
-date: 2023-12-10 01:00:00 -0500
+date: 2023-11-10 01:00:00 -0500
 categories: [rhel, security, ssh, faillock, fail2ban]
 tags: [rhel, security, ssh, faillock, fail2ban]
 ---
@@ -69,7 +69,7 @@ sudo systemctl start fail2ban
 To automatically ban an IP address after 3 failed login attempts, configure a jail in the `jail.conf` file:
 
 
-Add the below to the top of the config file, after the initial set of commented information : 
+This configuration seems to be designed to drop connections or packets from an offending IP address. Add the below to the top of the config file, after the initial set of commented information : 
 
 ```bash
 [blocktype]
@@ -79,6 +79,20 @@ bantime = 1h
 maxretry = 1
 findtime = 1
 ```
+
+| Parameter    | Description                                                                                                  |
+|--------------|--------------------------------------------------------------------------------------------------------------|
+| [blocktype]  | Section header defining a jail for a particular type of block or behavior.                                    |
+| returntype   | Specifies the action taken when a match is found. Here it's set to DROP, meaning packets from the banned IP will be dropped. |
+| action       | Defines the action parameters for the jail, including banning an IP and including specific metadata about the ban. |
+| bantime      | Sets the duration an IP address will be banned after reaching the maxretry limit. Set here to 1 hour (1h).     |
+| maxretry     | Specifies the number of failures or matches within the findtime before an action is taken. Set to 1.           |
+| findtime     | Defines the time window within which maxretry failures or matches are counted. Set to 1 (possibly 1 second or 1 minute). |
+
+
+
+
+
 Then we will add the below to the bottom of the config file : 
 
 ```bash
@@ -94,6 +108,8 @@ bantime = 3600
 Replace `filter-name`, `port`, `protocol`, and `path/to/logfile` with appropriate values for your system.
 
 
+This configuration will monitor the `/var/log/secure` log file for SSH-related authentication failure events (using the `sshd` filter). If an IP address fails to authenticate three times within the specified time frame, Fail2Ban will block access to the SSH port for that IP address for one hour using an IPTables rule (`iptables` action).
+
 Below is an example using sample/default information for configuring a fail2ban jail in the `jail.conf` configuration file : 
 
 ```bash
@@ -106,6 +122,18 @@ maxretry = 3
 bantime = 3600
 ```
 Always ensure the `logpath` points to the correct log file for the service you intend to monitor. Customize the `maxretry` (number of allowed failed attempts) and `bantime` (ban duration) based on your security requirements.
+
+
+| Parameter              | Description                                                                                                                     |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [automatic-ban]        | Section header defining the jail.                                                                                                |
+| enabled = true         | Indicates that this jail is active and will be used by Fail2Ban to monitor and respond to incoming events.                     |
+| filter = sshd          | Specifies the filter to be used for this jail, filtering the SSH service using the `sshd` filter.                                |
+| action = iptables[name=automatic-ban, port=ssh, protocol=tcp] | Defines the action taken when a match is found, adding an IPTables rule to block SSH access for a defined duration. |
+| logpath = /var/log/secure | Specifies the log file path to monitor for patterns defined in the `sshd` filter.                                               |
+| maxretry = 3           | Sets the maximum number of retries or failed login attempts allowed before triggering the defined action.                        |
+| bantime = 3600         | Defines the duration for which an IP address will be banned (in seconds).                                                        |
+
 
 
 After making changes in the `jail.conf` file, remember to restart fail2ban for the configurations to take effect:
