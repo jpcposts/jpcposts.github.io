@@ -1,6 +1,6 @@
 ---
 title: Enhancing Security with faillock and fail2ban
-date: 2023-11-10 01:00:00 -0500
+date: 2023-12-10 01:00:00 -0500
 categories: [rhel, security, ssh, faillock, fail2ban]
 tags: [rhel, security, ssh, faillock, fail2ban]
 ---
@@ -8,7 +8,7 @@ tags: [rhel, security, ssh, faillock, fail2ban]
 ![Enhancing Security with faillock and fail2ban](/assets/img/posts/2023/enhancing_security_faillock_fail2ban/enhancing_security_faillock_fail2ban.jpg)
 
 
-Enhancing security in a Red Hat Enterprise Linux (RHEL) environment is crucial, and tools like faillock and fail2ban offer valuable features to mitigate unauthorized access attempts. In this guide, we'll delve into the functionalities of these commands, their configurations, and when to use each for optimal security.
+Enhancing security in a Red Hat Enterprise Linux (RHEL) environment is crucial, and tools like `faillock` and `fail2ban` offer valuable features to mitigate unauthorized access attempts. In this guide, we'll delve into the functionalities of these commands, their configurations, and when to use each for optimal security.
 
 ## Understanding faillock
 
