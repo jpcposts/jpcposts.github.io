@@ -1,0 +1,156 @@
+---
+title: Enhancing Security with faillock and fail2ban
+date: 2023-11-10 01:00:00 -0500
+categories: [rhel, security, ssh, faillock, fail2ban]
+tags: [rhel, security, ssh, faillock, fail2ban]
+---
+
+![Enhancing Security with faillock and fail2ban](/assets/img/posts/2023/enhancing_security_faillock_fail2ban/enhancing_security_faillock_fail2ban.jpg)
+
+
+Enhancing security in a Red Hat Enterprise Linux (RHEL) environment is crucial, and tools like faillock and fail2ban offer valuable features to mitigate unauthorized access attempts. In this guide, we'll delve into the functionalities of these commands, their configurations, and when to use each for optimal security.
+
+## Understanding faillock
+
+### Features of faillock
+
+`faillock` is a command-line utility in RHEL that tracks and manages failed login attempts. Here are its key features:
+
+- **Locking User Accounts**: faillock can lock user accounts after a specified number of failed login attempts, preventing further login attempts.
+- **Displaying Lockout Information**: It shows details about locked user accounts, including when the lockout occurred and how many failed attempts were made.
+- **Resetting Failures**: Administrators can reset the failure count manually using the faillock command.
+
+### Using faillock
+
+#### Locking and Unlocking User Accounts
+
+To lock a user account after a certain number of failed attempts:
+
+```bash
+faillock --user <username> --lock
+```
+
+To unlock a previously locked user account:
+
+```bash
+faillock --user <username> --reset
+```
+
+## Understanding fail2ban
+
+### Features of fail2ban
+
+`fail2ban` is a more comprehensive solution that goes beyond locking user accounts. Its features include:
+
+- **Dynamic Firewall Rules**: fail2ban dynamically updates firewall rules to block IP addresses of hosts exhibiting suspicious behavior.
+- **Multiple Service Support**: It can monitor various services like SSH, FTP, and more, detecting and responding to suspicious activities across multiple services.
+- **Customizable Actions**: Administrators can configure custom actions for different scenarios, such as banning IP addresses for a specific duration.
+
+### Using fail2ban
+
+#### Installation and Configuration
+
+1. **Installation**: Install fail2ban using the package manager (yum or dnf):
+```bash
+sudo dnf install fail2ban -y
+```
+*The `EPEL repository` must be installed/configured in order to install `fail2ban`. You may download the EPEL repository by running the following command :*
+```bash
+sudo dnf install epel-release -y
+```
+2. **Configuration**: Configure fail2ban by editing the `jail.conf` file located in `/etc/fail2ban/`. Customize settings such as ban duration, threshold for failed attempts, and more.
+3. **Starting fail2ban**: Start the fail2ban service:
+```bash
+sudo systemctl start fail2ban
+```
+
+#### Automatic IP Ban Example
+
+To automatically ban an IP address after 3 failed login attempts, configure a jail in the `jail.conf` file:
+
+
+Add the below to the top of the config file : 
+
+```bash
+[blocktype]
+returntype = DROP
+action = %(action_)s[blocktype=%(blocktype)s,returntype=%(returntype)s, actionstart_on_demand=false, actionrepair_on_unban=true]
+bantime = 1h
+maxretry = 1
+findtime = 1
+```
+Then we will add the below to the bottom of the config file : 
+
+```bash
+[automatic-ban]
+enabled = true
+filter = <filter-name>
+action = iptables[name=<filter-name>, port=<port>, protocol=<protocol>]
+logpath = <path/to/logfile>
+maxretry = 3
+bantime = 3600
+```
+
+Replace `filter-name`, `port`, `protocol`, and `path/to/logfile` with appropriate values for your system.
+
+
+Below is an example using sample/default information for configuring a fail2ban jail in the `jail.conf` configuration file : 
+
+```bash
+[automatic-ban]
+enabled = true
+filter = sshd
+action = iptables[name=automatic-ban, port=ssh, protocol=tcp]
+logpath = /var/log/secure
+maxretry = 3
+bantime = 3600
+```
+Always ensure the `logpath` points to the correct log file for the service you intend to monitor. Customize the `maxretry` (number of allowed failed attempts) and `bantime` (ban duration) based on your security requirements.
+
+
+After making changes in the `jail.conf` file, remember to restart fail2ban for the configurations to take effect:
+```bash
+sudo systemctl restart fail2ban
+```
+
+## How to Confirm an IP Address Ban
+
+If you suspect that an IP address is banned, do the following to confirm
+
+```bash
+sudo fail2ban-client status <name_of_jail>
+```
+In this example the name of the jail is `automatic-ban` so the command would be 
+```bash
+sudo fail2ban-client status automatic-ban
+```
+
+This commnand will display various information about the ban, including how many IPs are currently banned and a list of all IPs that are banned. 
+
+
+![Enhancing Security with faillock and fail2ban2](/assets/img/posts/2023/enhancing_security_faillock_fail2ban/enhancing_security_faillock_fail2ban2.png)
+
+
+## How to Remove an IP Address Ban
+
+To remove an IP Address ban, run the below command. Once this command is executed properly, the ban will be removed and you will be able to successfully ssh into that machine/server again from that IP address. 
+
+```bash
+sudo fail2ban-client set automatic-ban unbanip 192.168.1.174
+```
+
+
+## When to Use Each Command
+
+- `faillock` is suitable for managing user account lockouts and tracking individual user login failures.
+- `fail2ban` is more extensive, providing protection against various types of attacks by dynamically banning potential malicious hosts.
+
+
+## Conclusion
+
+In RHEL, `faillock` and `fail2ban` are powerful tools to bolster system security. While `faillock` focuses on managing user account lockouts, `fail2ban` offers a broader approach, protecting against multiple types of attacks by dynamically updating firewall rules.
+
+For detailed configurations and advanced settings, refer to the official RHEL documentation. Implement these tools to fortify your system against unauthorized access attempts and enhance overall security.
+
+
+📝 For more detailed instructions and information, you can refer to the official [Faillock documentation](https://linux.die.net/man/8/faillock) and the [Fail2ban documentation](https://linux.die.net/man/8/fail2ban). 
