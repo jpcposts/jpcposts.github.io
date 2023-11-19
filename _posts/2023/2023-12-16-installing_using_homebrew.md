@@ -1,6 +1,6 @@
 ---
 title: Installing and Using Homebrew on macOS
-date: 2023-11-16 01:00:00 -0500
+date: 2023-12-16 01:00:00 -0500
 categories: [mac, homebrew, package-manager]
 tags: [mac, homebrew, package-manager]
 ---
