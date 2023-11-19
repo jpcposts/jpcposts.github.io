@@ -5,7 +5,7 @@ categories: [rhel, security, developer]
 tags: [rhel, security, developer]
 ---
 
-![Red Hat Developer Subscription](/assets/img/posts/2023/redhat_developer_subscription/redhat_developer_subscription.png)
+![Red Hat Developer Subscription](/assets/img/posts/2023/redhat_developer_subscription/redhat_developer_subscription1.png)
 
 
 Red Hat Enterprise Linux (RHEL) is a powerful operating system known for its robustness and security features. If you're a developer looking to access RHEL9 and receive updates, obtaining a Red Hat Developer Subscription is the first step. This guide walks you through the process of acquiring the subscription, downloading the official RHEL9 ISO, registering your machine, and activating it for updates.
