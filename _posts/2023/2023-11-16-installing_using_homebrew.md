@@ -24,7 +24,7 @@ Homebrew is a command-line package manager for macOS that allows users to easily
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-After the installation, you may need to configure the current shell environment with the necessary variables and settings to interact with Homebrew. If you do, you will be notiied in the terminal, so pay close attention to the notes in the terminal after the Homebrew installation is complete.
+After the installation, you may need to configure the current shell environment with the necessary variables and settings to interact with Homebrew. If you do, you will be notified in the terminal, so pay close attention to the notes in the terminal after the Homebrew installation is complete.
 
 Run the following command to set the correct variables : 
 
@@ -46,8 +46,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## Using Homebrew
 
-### Basic Commands
-
 ### Installing Packages
 
 - **Install a Package**: Use brew install followed by the package name to install software. For example:
@@ -61,8 +59,6 @@ brew install wget
 
 - **Formulas**: Formulas are scripts that describe how to install software. Users can create custom formulas or contribute to the Homebrew community.
 - **Taps**: Taps are third-party repositories that provide additional formulas. Use `brew tap` to add a tap.
-
-## Advanced Commands
 
 ### Troubleshooting and Maintenance
 
