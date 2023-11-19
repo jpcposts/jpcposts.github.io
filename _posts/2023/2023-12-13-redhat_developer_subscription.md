@@ -1,6 +1,6 @@
 ---
 title: Obtaining a Red Hat Developer Subscription and Activating RHEL9
-date: 2023-11-13 01:00:00 -0500
+date: 2023-12-13 01:00:00 -0500
 categories: [rhel, security, developer]
 tags: [rhel, security, developer]
 ---
