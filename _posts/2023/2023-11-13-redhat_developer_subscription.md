@@ -40,9 +40,7 @@ Once the machine/server has been imaged/configured with the ISO that was downloa
    ```
 
    - *You will be prompted for a password, enter your RedHat Developers Account Password*
-
    - You will be registered to `subscription.rhsm.redhat.com:443/subscription` after you enter your RedHat Developer password.
-
    - You will receive a message in the terminal stating that **The system has been registed with ID** : `RANDOM SET of CHARACTERS`. The registered system name is : `HOSTNAME`
 
 
