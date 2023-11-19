@@ -59,9 +59,6 @@ sudo dnf install fail2ban -y
 ```bash
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
 ```
-```bash
-sudo dnf install epel-release -y
-```
 2. **Configuration**: Configure fail2ban by editing the `jail.conf` file located in `/etc/fail2ban/`. Customize settings such as ban duration, threshold for failed attempts, and more.
 3. **Starting fail2ban**: Start the fail2ban service:
 ```bash
