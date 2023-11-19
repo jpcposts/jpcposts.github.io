@@ -54,7 +54,11 @@ faillock --user <username> --reset
 ```bash
 sudo dnf install fail2ban -y
 ```
-*The `EPEL repository` must be installed/configured in order to install `fail2ban`. You may download the EPEL repository by running the following command :*
+*The `EPEL repository` must be installed/configured in order to install `fail2ban`. You may download the EPEL repository by running the following commands :*
+
+```bash
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+```
 ```bash
 sudo dnf install epel-release -y
 ```
