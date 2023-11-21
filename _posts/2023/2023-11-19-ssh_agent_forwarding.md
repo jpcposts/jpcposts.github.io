@@ -57,7 +57,7 @@ Open or create ~/.ssh/config and enable agent forwarding for specific servers:
 Host server1 server2 server3 
     ForwardAgent yes
 ```
-Replace `server1` with your server's domain name or IP. Avoid using a wildcard (*) next to `Host` unless absolutely necessary to prevent forwarding access to private keys for every server you access.
+Replace `server1` `server2` `server3` with your server's domain name or IP. Avoid using a wildcard (*) next to `Host` unless absolutely necessary to prevent forwarding access to private keys for every server you access.
 
 
 **On macOS**, the ~/.ssh/config file should look like the following : 
@@ -82,6 +82,9 @@ You should now be able to access the remote server without a passphrase, even th
 ```bash
 ssh-keygen -y -f ~/.ssh/id_rsa
 ```
+
+Running this command should prompt you for your passphrase.
+
 
 ## Security Considerations
 
