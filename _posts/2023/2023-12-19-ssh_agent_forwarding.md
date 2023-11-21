@@ -1,6 +1,6 @@
 ---
 title: Configuring SSH Agent Forwarding for Secure Remote Access
-date: 2023-11-19 01:00:00 -0500
+date: 2023-12-19 01:00:00 -0500
 categories: [ssh, security, remote-access, linux, macos]
 tags: [ssh, security, remote-access, linux, macos]
 ---
