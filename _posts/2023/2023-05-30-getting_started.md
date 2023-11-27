@@ -30,6 +30,18 @@ Johnson Premier Consulting is here to provide IT consulting and technical suppor
 * Item 6
 * Item 7
 
+<!--This doesn't work in this editor, but does work in other editors like Obsidian -->
+<!--==highlight== -->
+
+~~strikethrough~~
+
+
+
+
+[[chatgpt]]
+
+
+
 <!-- ``` data inside ``` will help you create code blocks -->
 
 <!-- below is a bash code block -->
