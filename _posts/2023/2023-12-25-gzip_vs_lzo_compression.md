@@ -1,6 +1,6 @@
 ---
 title: Understanding Compression GZIP vs. LZO for Bacula Backups
-date: 2023-11-25 01:00:00 -0500
+date: 2023-12-25 01:00:00 -0500
 categories: [compression, backups, bacula, rhel, linux]
 tags: [compression, backups, bacula, rhel, linux]
 ---
