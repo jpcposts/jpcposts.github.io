@@ -1,6 +1,6 @@
 ---
 title: Understanding firewall-cmd Rich Rules
-date: 2023-11-22 01:00:00 -0500
+date: 2023-12-22 01:00:00 -0500
 categories: [firewall, security, rhel, linux]
 tags: [firewall, security, rhel, linux]
 ---
