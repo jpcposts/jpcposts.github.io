@@ -85,4 +85,4 @@ To disconnect from the remote Windows system, you can use the following key comb
 Using the xfreerdp package, you can easily connect to a remote Windows system from your Linux terminal. This is a convenient way to manage Windows machines when you're primarily working in a Linux environment. With the right credentials and a few simple commands, you can access the remote Windows desktop seamlessly.
 
 
-📝 For more information about xfreerdp, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp)!
+📝 For more information about xfreerdp, visit the [xfreerdp man page](https://linux.die.net/man/1/xfreerdp)
