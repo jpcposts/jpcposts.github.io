@@ -50,7 +50,7 @@ You may start the RDP connection by double clicking or right clicking on the hos
 
 To disconnect from the remote Windows computer, follow these steps:
 
-- Click the "X" button in the top-left corner of the Microsoft Remote Desktop window.
+- Click the `X` button in the top-left corner of the Microsoft Remote Desktop window.
 - You'll be prompted to confirm the disconnection, click `OK`
 
 ## Conclusion
