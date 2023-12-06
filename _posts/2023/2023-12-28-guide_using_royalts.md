@@ -1,6 +1,6 @@
 ---
 title: Guide to Using Royal TS on macOS
-date: 2023-11-28 01:00:00 -0500
+date: 2023-12-28 01:00:00 -0500
 categories: [mac, rdp, windows]
 tags: [mac, rdp, windows]
 ---
