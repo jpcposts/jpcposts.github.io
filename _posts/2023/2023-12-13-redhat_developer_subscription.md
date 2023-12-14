@@ -57,7 +57,7 @@ This command automatically detects available subscriptions and attaches the syst
 
 ## Conclusion
 
-Congratulations! You've successfully obtained a Red Hat Developer Subscription, downloaded the official RHEL9 ISO, registered your machine, and activated it for updates. RHEL9 is now ready for use, and you'll receive regular updates to ensure its security and functionality.
+Congratulations! You've successfully obtained a Red Hat Developer Subscription, downloaded the official RHEL9 ISO, registered your machine, and activated it for updates. RHEL9 is now ready for use, and you'll receive regular updates to ensure its security and functionality!
 
 
 📝 For more detailed instructions and information, you can refer to the official [Official RedHat documentation](https://developers.redhat.com/articles/getting-red-hat-developer-subscription-what-rhel-users-need-know?source=sso#updated_development_tools__red_hat_software_collections). 
