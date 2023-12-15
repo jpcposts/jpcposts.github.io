@@ -48,10 +48,6 @@ OSSEC is an open-source host-based intrusion detection system. It includes log m
 
 The ELK Stack offers a robust log management solution. Logstash can be configured to collect logs from aide.log, Elasticsearch provides storage and indexing, while Kibana offers visualization and analysis of log data.
 
-Regularly monitoring the aide.log file with these tools ensures early detection of system changes, potential security threats, and maintains compliance with security standards. It's a fundamental aspect of maintaining system integrity and security.
-
-Investing time and resources in effective log monitoring not only protects your system but also establishes a proactive approach towards security, minimizing the impact of potential threats or unauthorized modifications.
-
 
 ## Conclusion
 
