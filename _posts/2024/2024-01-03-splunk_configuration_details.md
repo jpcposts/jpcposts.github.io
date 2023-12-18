@@ -1,11 +1,11 @@
 ---
 title: Splunk Configuration Details
-date: 2023-12-17 01:00:00 -0500
+date: 2024-01-03 01:00:00 -0500
 categories: [splunk, monitoring, security, log]
 tags: [splunk, monitoring, security, log]
 ---
 
-![Splunk Configuration Details](/assets/img/posts/2023/splunk_configuration_details/splunk_configuration_details.jpg)
+![Splunk Configuration Details](/assets/img/posts/2024/splunk_configuration_details/splunk_configuration_details.jpg)
 
 
 Splunk is a powerful tool for analyzing, monitoring, and visualizing machine-generated data. Setting up Splunk involves a few steps to harness its capabilities fully.
