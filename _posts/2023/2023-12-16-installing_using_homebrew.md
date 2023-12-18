@@ -69,7 +69,7 @@ brew install wget
 
 Homebrew is a versatile package manager for macOS that streamlines the installation and management of software. With its user-friendly commands and extensive library of packages, Homebrew enhances the macOS experience by simplifying software installation and updates.
 
-Start using Homebrew on your Mac today to effortlessly manage software packages and enhance your productivity!
+Start using Homebrew on your Mac today to effortlessly manage software packages and enhance your productivity!!!
 
 📝 For more detailed information and advanced usage, refer to the official [Homebrew Documentation](https://docs.brew.sh/).
 
