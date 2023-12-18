@@ -38,7 +38,7 @@ Splunk Universal Forwarders are lightweight versions of Splunk Enterprise used t
 2. **Install:** Follow the installation steps provided for your OS.
 3. **Configuration:** Configure inputs to specify which data to collect and send to the central Splunk instance.
 
-Splunk Universal Forwarders are invaluable for gathering data from distributed systems, enabling holistic monitoring, and providing comprehensive insights into your infrastructure. I will provide a more detailed information about Splunk and its features in a future blog post.
+Splunk Universal Forwarders are invaluable for gathering data from distributed systems, enabling holistic monitoring, and providing comprehensive insights into your infrastructure. I will provide more detailed information about Splunk and its features in a future blog post.
 
 ## Conclusion
 
