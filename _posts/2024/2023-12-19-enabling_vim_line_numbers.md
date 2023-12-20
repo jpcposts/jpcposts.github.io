@@ -28,7 +28,8 @@ Within the `/etc/vimrc` file, add the following line :
     set nu
 ```
 This command tells Vim to always display line numbers when you open files in the editor.
-3. Save the changes and either restart Vim or open a new file to see line numbers enabled by default.
+
+Save the changes and either restart Vim or open a new file to see line numbers enabled by default.
 
 
 ## Enabling Line Numbers Temporarily
