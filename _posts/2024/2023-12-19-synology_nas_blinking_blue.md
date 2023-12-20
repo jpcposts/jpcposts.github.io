@@ -37,7 +37,7 @@ The 12V power adapter is the lifeline of your NAS device. A defective adapter ca
 
 - Synology provides official replacement parts, including power adapters, which are specifically designed for their NAS devices.
 - Check the official Synology website or authorized dealers for genuine adapters.
-- You may search Amazon or other retailers for these 12V power adapters. I've replaced my Power Adapter in the past with [this one](https://www.amazon.com/dp/B07MCHNPW7?psc=1&ref=ppx_yo2ov_dt_b_product_details) in the past.
+- You may search Amazon or other retailers for these 12V power adapters. I've replaced my Power Adapter in the past with [this one](https://www.amazon.com/dp/B07MCHNPW7?psc=1&ref=ppx_yo2ov_dt_b_product_details).
 
 ## Conclusion
 
