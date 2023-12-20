@@ -30,8 +30,8 @@ The 12V power adapter is the lifeline of your NAS device. A defective adapter ca
 
 ### Steps to Address the Power Adapter Issue
 
-1. **Inspect the Adapter:** Check for any physical damage, frayed cables, or signs of overheating on the power adapter. Also, listen for any clicking sounds coming from the power adapter.
-2. **Replace if Necessary:** If you suspect the adapter is faulty or damaged, replacing it with a compatible 12V adapter with the same specifications is recommended.
+- **Inspect the Adapter:** Check for any physical damage, frayed cables, or signs of overheating on the power adapter. Also, listen for any clicking sounds coming from the power adapter.
+- **Replace if Necessary:** If you suspect the adapter is faulty or damaged, replacing it with a compatible 12V adapter with the same specifications is recommended.
 
 ### Where to Find a Replacement
 
