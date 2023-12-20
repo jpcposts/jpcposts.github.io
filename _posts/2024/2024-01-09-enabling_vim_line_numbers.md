@@ -1,6 +1,6 @@
 ---
 title: Enabling Line Numbers in Vim
-date: 2023-12-19 01:00:00 -0500
+date: 2024-01-09 01:00:00 -0500
 categories: [linux, rhel, texteditor]
 tags: [linux, rhel, texteditor]
 ---
