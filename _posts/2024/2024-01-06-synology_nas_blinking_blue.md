@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Synology NAS Blue Blinking Light
-date: 2023-12-19 01:00:00 -0500
+date: 2024-01-06 01:00:00 -0500
 categories: [synology, nas, hardware, failure]
 tags: [synology, nas, hardware, failure]
 ---
