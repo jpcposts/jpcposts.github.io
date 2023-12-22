@@ -110,5 +110,5 @@ Mastering `firewall-cmd` rich rules grants you unparalleled control over network
 
 These examples serve as a starting point to explore the capabilities of `firewall-cmd` rich rules. Experiment, adapt, and refine these rules to fortify your system's defenses against potential threats.
 
-📝 For detailed firewall-cmd commands and advanced usage, refer to the  [Firewall-cmd Manual Pages](https://firewalld.org/documentation/man-pages/firewall-cmd.html).
+📝 For detailed firewall-cmd commands and advanced usage, refer to the  [Firewall-cmd Manual Pages](https://firewalld.org/documentation/man-pages/firewall-cmd.html)..
 
