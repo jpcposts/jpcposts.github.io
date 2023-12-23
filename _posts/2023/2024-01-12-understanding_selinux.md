@@ -1,6 +1,6 @@
 ---
 title: Understanding SELinux
-date: 2024-01-12 01:00:00 -0500
+date: 2023-12-23 01:00:00 -0500
 categories: [linux, rhel, security, selinux]
 tags: [linux, rhel, security, selinux]
 ---
@@ -23,6 +23,41 @@ SELinux's operational modes — `Enforcing`, `Permissive`, and `Disabled` direct
 ## Real-world Applications and the Path Forward
 
 Practical implementations and future trends are key in understanding SELinux's relevance. This section explores real-world applications, showcasing its efficacy through case studies in diverse environments. Additionally, it delves into future advancements and SELinux's evolving role in the evolving security landscape.
+
+
+## Understanding SELinux Commands
+
+SELinux incorporates a range of commands pivotal for managing security policies, contexts, and enforcement. These commands offer granular control over SELinux configurations, aiding in system defense against potential threats.
+
+### `sestatus`
+
+`sestatus` serves as an entry point for understanding the current SELinux status. It displays the mode (Enforcing, Permissive, or Disabled), policy version, and other critical SELinux configurations. This command is fundamental for gauging the system's security posture.
+
+### `setenforce`
+
+The `setenforce` command facilitates mode transitions in SELinux. Admins can toggle between Enforcing and Permissive modes using this command. It's crucial for testing policies in Permissive mode before enforcing them in the system.
+
+### `getenforce`
+
+Similar to `sestatus`, `getenforce` fetches the current SELinux mode. It's particularly useful for scripting and automation purposes, enabling checks for SELinux mode during system operations.
+
+### `semanage`
+
+`semanage` allows administrators to configure SELinux policy without editing raw policy files. It enables modifications to SELinux policy booleans, users, ports, and more. This command simplifies policy management, ensuring system-specific customizations without altering policy files directly.
+
+### `restorecon`
+
+When file contexts need adjustments due to policy changes or improper labeling, `restorecon` is the go-to command. It resets file contexts according to the SELinux policy database, ensuring proper labeling and maintaining system integrity.
+
+### `audit2allow` and `audit2why`
+
+These commands are indispensable for troubleshooting. `audit2allow` parses audit logs to generate policy module suggestions, aiding in creating custom SELinux policies. Conversely, `audit2why` translates audit denial messages, offering insights into why specific actions were denied by SELinux.
+
+## Importance of SELinux Commands
+
+These commands empower administrators to navigate and manage SELinux effectively. They streamline policy configuration, mode transitions, troubleshooting, and context adjustments. Understanding and utilizing these commands ensures robust SELinux configuration and fortified system security.
+
+<br>
 
 ## Conclusion: SELinux, the Security Sentinel
 
