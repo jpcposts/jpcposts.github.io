@@ -1,5 +1,5 @@
 ---
-title: Monitoring the aide.log File
+title: Understanding SELinux
 date: 2023-12-23 01:00:00 -0500
 categories: [linux, rhel, security, selinux]
 tags: [linux, rhel, security, selinux]
@@ -7,9 +7,6 @@ tags: [linux, rhel, security, selinux]
 
 ![Monitoring the aide.log File](/assets/img/posts/2024/understanding_selinux/understanding_selinux.png)
 
-
-
-# Understanding SELinux: Building Blocks of Secure Systems
 
 ## Introduction: The Vital Role of SELinux
 
