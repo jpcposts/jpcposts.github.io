@@ -1,6 +1,6 @@
 ---
 title: Exploring Red Hat Insights
-date: 2023-12-23 01:00:00 -0500
+date: 2024-01-15 01:00:00 -0500
 categories: [linux, rhel, security, administration]
 tags: [linux, rhel, security, administration]
 ---
