@@ -45,5 +45,5 @@ Consider running tests with both compression methods within your Bacula setup. P
 Choosing between LZO and GZIP compression for Bacula backups requires understanding the trade-offs. LZO excels in speed but might compromise on compression efficiency. On the other hand, GZIP offers better compression ratios but at the cost of slower processing. Assess your priorities - whether speed or compression ratio is paramount - and conduct tests within your Bacula environment to determine the optimal compression method.
 
 
-📝 For more information about Bacula, refer to the  [Bacula Manuals](https://www.bacula.org/documentation/documentation/).
+📝 For more information about Bacula, refer to the  [Bacula Manuals](https://www.bacula.org/documentation/documentation/)...
 
