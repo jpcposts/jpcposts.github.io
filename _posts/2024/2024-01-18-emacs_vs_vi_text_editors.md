@@ -1,6 +1,6 @@
 ---
 title: Emacs vs. Vi (Vim) Text Editors
-date: 2023-12-26 01:00:00 -0500
+date: 2024-01-18 01:00:00 -0500
 categories: [linux, rhel, texteditor, administration]
 tags: [linux, rhel, texteditor, administration]
 ---
@@ -36,7 +36,7 @@ Vi, and its more enhanced version Vim (Vi IMproved), follow a different philosop
   - **Speed and Simplicity**: Vim's steep learning curve is rewarded with remarkable speed and efficiency in editing tasks.
 
 ### **Cons**:
-  - **Modal Paradigm**: The modal editing paradigm might be initially confusing for new users.
+  - **Modal Paradigm**: The modal editing paradigm might be initially confusing for new users. This is where the editor operates in different modes for navigation, insertion, and command execuution.
   - **Initial Learning Curve**: Vim's efficiency comes after a learning phase that might be intimidating for some users.
 
 
