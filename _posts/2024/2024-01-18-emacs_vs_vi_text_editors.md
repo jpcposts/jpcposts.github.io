@@ -5,7 +5,7 @@ categories: [linux, rhel, texteditor, administration]
 tags: [linux, rhel, texteditor, administration]
 ---
 
-![Monitoring the aide.log File](/assets/img/posts/2024/exploring_redhat_insights/exploring_redhat_insights.png)
+![Monitoring the aide.log File](/assets/img/posts/2024/emacs_vs_vi_text_editors/emacs_vs_vi_text_editors.jpg)
 
 
 ## Introduction
