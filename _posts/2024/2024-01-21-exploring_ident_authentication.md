@@ -1,6 +1,6 @@
 ---
 title: Exploring IDENT Authentication Method
-date: 2024-01-05 01:00:00 -0500
+date: 2024-01-21 01:00:00 -0500
 categories: [linux, rhel, security, authentication]
 tags: [linux, rhel, security, authentication]
 ---
