@@ -20,13 +20,13 @@ IDENT authentication serves as a mechanism for network devices, typically router
 
 #### Authentication Request:
 
-1. **User Access Attempt:** When a user endeavors to access a network device, such as a router or switch, the device initiates an authentication request.
-2. **Credential Forwarding:** The device transmits the user's credentials, which typically include a username, password, or other relevant information, to a designated authentication server, often a RADIUS server.
+- **User Access Attempt:** When a user endeavors to access a network device, such as a router or switch, the device initiates an authentication request.
+- **Credential Forwarding:** The device transmits the user's credentials, which typically include a username, password, or other relevant information, to a designated authentication server, often a RADIUS server.
 
 #### Server Verification:
 
-1. **Authentication Server Processing:** The RADIUS server receives the authentication request and proceeds to verify the user's credentials against its secure database.
-2. **Acknowledgment:** Upon successful verification, the RADIUS server sends an acknowledgment (acceptance) back to the network device.
+- **Authentication Server Processing:** The RADIUS server receives the authentication request and proceeds to verify the user's credentials against its secure database.
+- **Acknowledgment:** Upon successful verification, the RADIUS server sends an acknowledgment (acceptance) back to the network device.
 
 #### Access Granted/Denied:
 
