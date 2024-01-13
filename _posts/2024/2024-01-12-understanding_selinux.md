@@ -63,6 +63,6 @@ These commands empower administrators to navigate and manage SELinux effectively
 
 SELinux stands as a linchpin in securing modern computing systems. Its foundational components, operational modes, effective policy management, and practical implementations are essential for fortifying systems against evolving threats. Understanding SELinux's role is pivotal in safeguarding systems and ensuring resilient security measures.
 
-📝 For more information about SELinux, refer to the  [SELinux Project Wiki](https://selinuxproject.org/page/Main_Page).
+📝 For more information about SELinux, refer to the  [SELinux Project Wiki](https://selinuxproject.org/page/Main_Page)..
 
 
