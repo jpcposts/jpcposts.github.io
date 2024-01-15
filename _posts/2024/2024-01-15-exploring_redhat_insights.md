@@ -76,7 +76,7 @@ With the installation and user access configured, access the Insights dashboard 
 
 #### 6. Remediating Vulnerabilities
 
-As a member of the `Remediation Admin` group, you'll have the authority to remediate identified vulnerabilities. Follow the instructions within Red Hat Insights to resolve the issues effectively.
+As a member of the `Remediation Admin` group, you'll have the authority to remediate identified vulnerabilities. Follow the instructions within Red Hat Insights to resolve the issues effectively!
 
 
 
