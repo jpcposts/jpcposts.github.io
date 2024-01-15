@@ -1,6 +1,6 @@
 ---
 title: Deep Dive into the Juniper EX4400-48P Networking Switch
-date: 2024-01-14 01:00:00 -0500
+date: 2024-01-27 01:00:00 -0500
 categories: [networking, switch, juniper, review]
 tags: [networking, switch, juniper, review]
 ---
