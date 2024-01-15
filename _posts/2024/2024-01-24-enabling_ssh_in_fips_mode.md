@@ -45,7 +45,7 @@ When encountering issues with SSH while FIPS is enabled, temporarily disabling F
    ```
 - **Reboot:**
    ```bash
-   sudo fips-mode-setup --disable
+   sudo reboot
    ```
 
 ## Generating SSH Key and Enabling FIPS Again
