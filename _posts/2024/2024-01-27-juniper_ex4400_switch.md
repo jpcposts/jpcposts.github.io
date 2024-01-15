@@ -5,9 +5,8 @@ categories: [networking, switch, juniper, review]
 tags: [networking, switch, juniper, review]
 ---
 
-![Deep Dive into the Juniper EX4400-48P Networking Switch](/assets/img/posts/2024/juniper_ex4400_switch/juniper_ex4400_switch.png)
-
-
+![Deep Dive into the Juniper EX4400-48P Networking Switch](/assets/img/posts/2024/juniper_ex4400_switch/juniper_ex4400_switch1.png)
+![Deep Dive into the Juniper EX4400-48P Networking Switch](/assets/img/posts/2024/juniper_ex4400_switch/juniper_ex4400_switch2.png)
 
 
 ## Introduction
