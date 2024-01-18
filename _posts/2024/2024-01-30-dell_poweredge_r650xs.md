@@ -1,6 +1,6 @@
 ---
 title: Unleashing Power and Performance - PowerEdge R650xs Rack Server
-date: 2024-01-17 01:00:00 -0500
+date: 2024-01-30 01:00:00 -0500
 categories: [server, dell, review]
 tags: [server, dell, review]
 ---

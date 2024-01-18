@@ -1,6 +1,6 @@
 ---
 title: Creating a Custom Alias
-date: 2024-01-17 01:00:00 -0500
+date: 2024-02-02 01:00:00 -0500
 categories: [rhel, linux, bash]
 tags: [rhel, linux, bash]
 ---

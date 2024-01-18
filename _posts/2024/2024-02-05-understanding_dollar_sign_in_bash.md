@@ -1,6 +1,6 @@
 ---
 title: Understanding the Dollar Sign ($) in Bash Scripts
-date: 2024-01-17 01:00:00 -0500
+date: 2024-02-05 01:00:00 -0500
 categories: [rhel, linux, bash]
 tags: [rhel, linux, bash]
 ---
@@ -18,7 +18,7 @@ Consider the following script snippet:
 "Password = "$6$px2$rvq/gQLkd5Tr9yMatJukZBXK54clYaOslgMGTWi1TpfM7htA4qhP2cUAVaTd69nnMLWp2tpCUzMLQTxpQiaaa."
 ```
 
-In this case, the shell interprets $6, $px2, and $rvq as variable references. If these variables do not exist in the script, the result may be an empty or random value.
+In this case, the shell interprets $6, $px2, and $rvq as variable references. If these variables do not exist in the script, the result may be an empty or `random value`.
 
 
 ## Preventing Variable Interpretation
