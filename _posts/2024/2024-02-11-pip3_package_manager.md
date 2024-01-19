@@ -1,6 +1,6 @@
 ---
 title: Using pip3 Package Manager
-date: 2024-01-8 01:00:00 -0500
+date: 2024-01-18 01:00:00 -0500
 categories: [rhel, linux, python, pip3, package_manager]
 tags: [rhel, linux, python, pip3, package_manager]
 ---
