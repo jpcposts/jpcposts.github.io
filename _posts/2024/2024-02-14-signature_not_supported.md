@@ -1,6 +1,6 @@
 ---
 title: Unraveling the "Signature not supported. Hash algorithm SHA1 not available" Error
-date: 2024-01-19 01:00:00 -0500
+date: 2024-02-14 01:00:00 -0500
 categories: [rhel, linux, dnf, hash, package_manager]
 tags: [rhel, linux, dnf, hash, package_manager]
 ---
