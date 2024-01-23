@@ -16,44 +16,33 @@ In the realm of collaborative software development, Git plays a pivotal role in 
 ## Git Workflow with Bitbucket:
 
 ### 1. Fork the Repository:
-
    - Create your own copy (fork) of the repository you want to contribute to.
 
 
 ### 2. Clone the Repository:
-
    - Clone your forked repository to your local machine using `git clone https://www.testrepo.git`.
    - You will likely be prompted for username/password credentials.
 
 ### 3. Create a New Branch:
-
    - Create a new branch for your changes using `git checkout -b feature-branch`.
-
    - If your organization uses Jira with Bitbucket, you may have the option to create a branch directly from within Jira. This option is likely within a Jira ticket, and you will see an option under the `Development` section of the ticket that says `Create branch`. 
-
    - If you are already connected to the `main` branch, you can switch to the newly created branch by running the `git switch feature-branch` command. Where feature-branch is the name of the new branch.
-
    - Another note : you may view your local branches by running the `git branch --list` command and you may view all available branches on the remote server by runnign the `git branch -a` command.
 
 
 ### 4. Make Changes:
-
    - Make the necessary changes to the code.
 
 ### 5. Commit Changes:
-
    - Commit your changes to the local branch using the `git add .` and `git commit -m "Description of Changes"` commands.
 
 ### 6. Push Changes:
-
    - Push your changes to your forked repository using `git push`.
 
 ### 7. Create Pull Request:
-
    - Go to Bitbucket and create a pull request from your branch to the target branch.
 
 ### 8. Review and Merge:
-
    - Other contributors/colleagues should now review your changes, and once approved, the changes CAN be merged into the target branch.
 
 ## The Role of Pull Requests:
