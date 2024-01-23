@@ -60,28 +60,28 @@ In the realm of collaborative software development, Git plays a pivotal role in 
 
 Creating a pull request serves several essential purposes in collaborative software development:
 
-1. **Code Review:**
+### 1. **Code Review:**
    - A dedicated space for team members to review and discuss proposed changes, ensuring code quality and adherence to project standards.
 
-2. **Collaboration:**
+### 2. **Collaboration:**
    - Facilitates collaboration by allowing developers to share work, gather feedback, and discuss potential improvements.
 
-3. **Discussion:**
+### 3. **Discussion:**
    - Includes a comment section for team members to discuss specific lines of code, ask questions, or provide feedback.
 
-4. **Visibility:**
+### 4. **Visibility:**
    - Provides clear visibility into proposed changes, showcasing who made the changes and when.
 
-5. **Continuous Integration (CI) and Testing:**
+### 5. **Continuous Integration (CI) and Testing:**
    - Integration with CI systems for automatic testing to ensure proposed changes do not introduce new bugs.
 
-6. **Documentation:**
+### 6. **Documentation:**
    - Often includes documentation updates or additions to maintain consistency and keep documentation up to date.
 
-7. **Maintainer Approval:**
+### 7. **Maintainer Approval:**
    - Ensures changes are reviewed and approved by designated personnel before merging into the main branch.
 
-8. **Version Control:**
+### 8. **Version Control:**
    - Maintains a clear history of changes, making it easier to understand and roll back changes if needed.
 
 ## Pull Request as a Collaborative Space:
