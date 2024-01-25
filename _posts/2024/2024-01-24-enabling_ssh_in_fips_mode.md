@@ -96,4 +96,4 @@ To ensure FIPS mode is reactivated post-access restoration:
 Creating an ECDSA key with `ssh-keygen -t ecdsa -b 384` is crucial for establishing secure connections. The chosen algorithm and key size significantly impact the level of security and resilience against potential threats, making it a fundamental step in ensuring secure communication in a networked environment. Taking this step will allow you to securing SSH into a machine while FIPS mode is enabled.
 
 
-📝 For more information about ECDSA, refer to [this](https://ecdsa.readthedocs.io/en/latest/) article.
+📝 For more information about ECDSA, refer to [this](https://ecdsa.readthedocs.io/en/latest/) article!
