@@ -66,4 +66,4 @@ The flexibility of the Juniper EX4400-48P positions it as a scalable solution, c
 In conclusion, the Juniper EX4400-48P Networking Switch stands as a compelling choice for organizations seeking a powerful, reliable, and secure networking solution. With its feature-rich design and numerous benefits, it proves to be an investment that not only meets current network demands but also anticipates and prepares for future challenges.
 
 
-📝 For more information about this switch, refer to [EX4400-48P Networking Switch](https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html) webpage on the Juniper Networks website.
+📝 For more information about this switch, refer to [EX4400-48P Networking Switch](https://www.juniper.net/us/en/products/switches/ex-series/ex4400-ethernet-switch.html) webpage on the Juniper Networks website!
