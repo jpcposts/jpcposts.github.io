@@ -62,4 +62,4 @@ The PowerEdge R650xs Rack Server is a testament to Dell's commitment to deliveri
 
 
 
-📝 For more information about this server, refer to PowerEdge R650xs Rack Server's [spec sheet](https://i.dell.com/sites/csdocuments/Product_Docs/en/r650xs-spec-sheet.pdf).
+📝 For more information about this server, refer to PowerEdge R650xs Rack Server's [spec sheet](https://i.dell.com/sites/csdocuments/Product_Docs/en/r650xs-spec-sheet.pdf)!
