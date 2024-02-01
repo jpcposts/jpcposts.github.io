@@ -94,7 +94,11 @@ mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
 
 ## Final Thoughts:
 
-Automate the monitoring process using cron and consider offloading and centralizing database files for enhanced security. Speed up the process by focusing on a single message digest algorithm, such as sha512, and disabling others like md5, rmd160, and sha256.
+Automate the monitoring process using cron and consider offloading and centralizing database files for enhanced security.
+
+You may include the #sudo aide --check command into a cron job and push it to a log file to keep track of the ongoing changes to the system.
+
+Example : #sudo aide --check >> /opt/log/aidechecks.log
 
 By implementing AIDE as part of your security strategy, you fortify your Linux system against unauthorized changes, providing an additional layer of defense in the ever-evolving landscape of cybersecurity.
 
