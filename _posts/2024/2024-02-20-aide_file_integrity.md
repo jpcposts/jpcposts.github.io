@@ -1,12 +1,11 @@
 ---
 title: AIDE File Integrity Safeguarding Your Linux System
-date: 2024-02-01 01:00:00 -0500
+date: 2024-02-20 01:00:00 -0500
 categories: [aide, linux, security]
 tags: [aide, linux, security]
 ---
 
-![Understanding Git Workflow with Bitbucket](/assets/img/posts/2024/aide_file_integrity/aide_file_integrity.jpg)
-
+![AIDE File Integrity](/assets/img/posts/2024/aide_file_integrity/aide_file_integrity.jpg)
 
 
 ## Introduction:
