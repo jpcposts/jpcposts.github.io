@@ -51,4 +51,4 @@ In our exploration, we discovered that unescaped dollar signs within double quot
 
 By understanding how the dollar sign interacts with variables and employing best practices for its usage, scriptwriters can ensure the smooth execution of their Bash scripts. Remember, clarity and precision are key when navigating the world of shell scripting, and a keen awareness of special characters contributes to the mastery of this versatile scripting language. 
 
-📝 For more information about variables, refer to [this documentation](https://www.bashsupport.com/manual/editor/documentation/) about variables, variable declarations, functions and commands.
+📝 For more information about variables, refer to [this documentation](https://www.bashsupport.com/manual/editor/documentation/) about variables, variable declarations, functions and commands!
