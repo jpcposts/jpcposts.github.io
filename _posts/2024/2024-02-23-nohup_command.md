@@ -60,6 +60,6 @@ In a world where remote server management is commonplace, dealing with SSH sessi
 
 
 
-📝 For more information about the `nohup` command, refer to the [nohup Man Page](https://linux.die.net/man/1/nohup).
+📝 For more information about the `nohup` command, refer to the [nohup Man Page](https://linux.die.net/man/1/nohup)!
 
 
