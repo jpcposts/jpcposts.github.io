@@ -85,6 +85,6 @@ As quantum computing advancements pose threats to current hash functions, the fi
 In summary, MD5, SHA-1, SHA-256, and SHA-512 have played pivotal roles in ensuring data integrity, but with evolving cryptographic landscapes, the need for quantum-resistant algorithms is becoming increasingly apparent. The shift towards post-quantum cryptography signals a commitment to future-proofing our cryptographic practices. Understanding these nuances is crucial for maintaining robust security measures in our ever-advancing technological environment.
 
 
-📝 For more information about hashing algorithms, refer to [this Okta article](https://www.okta.com/identity-101/hashing-algorithms/). This [NIST article](https://www.nist.gov/cryptography) is also a great resource.
+📝 For more information about hashing algorithms, refer to [this Okta article](https://www.okta.com/identity-101/hashing-algorithms/). This [NIST article](https://www.nist.gov/cryptography) is also a great resource!
 
 
