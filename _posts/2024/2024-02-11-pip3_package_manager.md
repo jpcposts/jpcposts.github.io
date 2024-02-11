@@ -66,6 +66,6 @@ In conclusion, installing python3-pip on RHEL 9 allows you to harness the power 
 By following the simple installation steps and learning the basic pip3 commands, you'll be well-equipped to handle Python package management on RHEL 9.
 
 
-📝 For more information about hashing algorithms, refer to this [Python documentation](https://docs.python.org/3/).
+📝 For more information about hashing algorithms, refer to this [Python documentation](https://docs.python.org/3/)!!!
 
 
