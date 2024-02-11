@@ -47,6 +47,6 @@ This command enables line numbers for the current session but doesn't save the s
 Customizing Vim settings can significantly enhance your editing experience. Enabling line numbers by default is a practical configuration for better navigation and reference while working with multiple files. Utilize this method to streamline your workflow and increase productivity within the Vim text editor.
 
 
-📝 For more information about Vi/Vim, refer to the  [Vi Man Page](https://linux.die.net/man/1/vi).
+📝 For more information about Vi/Vim, refer to the  [Vi Man Page](https://linux.die.net/man/1/vi)...
 
 
