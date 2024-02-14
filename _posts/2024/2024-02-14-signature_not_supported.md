@@ -49,6 +49,6 @@ Remember, **<span style="color: red;">CAUTION </span>** should be exercised when
 By following these steps, users can navigate through this error, enhancing the overall stability and security of their RPM-based systems.
 
 
-📝 For more information about SHA-1's deprecation, refer to this [Red Hat Blog Article](https://www.redhat.com/en/blog/rhel-security-sha-1-package-signatures-distrusted-rhel-9).
+📝 For more information about SHA-1's deprecation, refer to this [Red Hat Blog Article](https://www.redhat.com/en/blog/rhel-security-sha-1-package-signatures-distrusted-rhel-9)..
 
 
