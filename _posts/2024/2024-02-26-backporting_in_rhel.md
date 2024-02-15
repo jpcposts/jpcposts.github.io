@@ -10,7 +10,7 @@ tags: [ssh, linux, security]
 
 ## Introduction:
 
-Red Hat Enterprise Linux (RHEL) stands out as a robust and stable operating system widely used in enterprise environments. One key aspect contributing to its reliability is the practice of backporting. This blog post explores the concept of backporting in RHEL, its significance, and how it enhances both stability and security.
+Red Hat Enterprise Linux (RHEL) stands out as a robust and stable operating system widely used in enterprise environments. One key aspect contributing to its reliability is the practice of [backporting](https://access.redhat.com/security/updates/backporting). This blog post explores the concept of backporting in RHEL, its significance, and how it enhances both stability and security.
 
 ## Understanding Backporting:
 
@@ -60,6 +60,4 @@ Backporting plays a pivotal role in the Red Hat Enterprise Linux ecosystem, cont
 In the ever-changing landscape of technology, RHEL's commitment to backporting reaffirms its dedication to providing a solid foundation for businesses that rely on a stable and secure operating system.
 
 
-📝 For more information about backporting, refer to this [RedHat Knowledgebase Article](https://access.redhat.com/solutions/57665). This [article](https://access.redhat.com/security/updates/backporting) also provides great information about Backporting.
-
-
+📝 For more information about backporting, refer to this [RedHat Knowledgebase Article](https://access.redhat.com/solutions/57665).
