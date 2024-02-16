@@ -20,7 +20,6 @@ Hashing is a **one-way** cryptographic function that transforms input data, such
 ### Purpose:
 - **Password Storage:**
   Hashing is commonly used to store passwords securely. Instead of storing actual passwords, systems store the hash values generated from those passwords. During authentication, the entered password's hash is compared to the stored hash for validation.
-
 - **Data Integrity:**
   Hashing ensures data integrity by producing a unique hash value for unique input. Even a minor change in input results in a substantially different hash, making it suitable for data integrity verification.
 
@@ -32,7 +31,6 @@ Encryption is a **two-way** process that involves transforming data into a forma
 ### Purpose:
 - **Confidential Communication:**
   Encryption is widely used to secure communication channels. It ensures that only authorized parties with the correct decryption key can access the original data, preventing unauthorized interception.
-
 - **Data Protection:**
   Sensitive data, such as personal information and financial details, is often encrypted to prevent unauthorized access. In the event of a security breach, encrypted data remains unreadable without the decryption key.
 
