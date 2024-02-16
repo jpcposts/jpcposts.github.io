@@ -1,6 +1,6 @@
 ---
 title: Hashing vs. Encryption Passwords
-date: 2024-02-15 01:00:00 -0500
+date: 2024-03-03 01:00:00 -0500
 categories: [hash, encryption, security]
 tags: [hash, encryption, security]
 ---
