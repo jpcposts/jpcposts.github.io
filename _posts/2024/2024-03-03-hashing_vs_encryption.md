@@ -14,10 +14,10 @@ In the realm of cybersecurity, the protection of user passwords is vital. Hashin
 
 ## Hashing:
 
-### Definition:
+### Definition
 Hashing is a **one-way** cryptographic function that transforms input data, such as a password, into a fixed-size string of characters, which is typically a hash value. The key characteristic of hashing is its irreversibility — once data is hashed, it cannot be feasibly reversed to obtain the original input.
 
-### Purpose:
+### Purpose
 - **Password Storage:**
   Hashing is commonly used to store passwords securely. Instead of storing actual passwords, systems store the hash values generated from those passwords. During authentication, the entered password's hash is compared to the stored hash for validation.
 - **Data Integrity:**
@@ -25,10 +25,10 @@ Hashing is a **one-way** cryptographic function that transforms input data, such
 
 ## Encryption:
 
-### Definition:
+### Definition
 Encryption is a **two-way** process that involves transforming data into a format that is unintelligible without the appropriate decryption key. Unlike hashing, encryption is reversible, allowing the original data to be restored using the decryption key.
 
-### Purpose:
+### Purpose
 - **Confidential Communication:**
   Encryption is widely used to secure communication channels. It ensures that only authorized parties with the correct decryption key can access the original data, preventing unauthorized interception.
 - **Data Protection:**
@@ -36,19 +36,19 @@ Encryption is a **two-way** process that involves transforming data into a forma
 
 ## Differences:
 
-### **Reversibility:**
+### **Reversibility**
    - **Hashing:** Irreversible. Once hashed, the original input cannot be retrieved.
    - **Encryption:** Reversible. Data can be decrypted with the appropriate key.
 
-### **Use Case:**
+### **Use Case**
    - **Hashing:** Primarily used for password storage and data integrity verification.
    - **Encryption:** Applied in scenarios where reversible transformation is required, such as secure communication and data protection.
 
-### **Key Involvement:**
+### **Key Involvement**
    - **Hashing:** No decryption key is involved.
    - **Encryption:** Requires encryption and decryption keys.
 
-### **Security Focus:**
+### **Security Focus**
    - **Hashing:** Focuses on data integrity and password protection.
    - **Encryption:** Focuses on confidentiality and preventing unauthorized access.
 
