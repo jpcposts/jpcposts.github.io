@@ -99,6 +99,6 @@ Creating a pull request is akin to showcasing your work and inviting team member
 In conclusion, mastering Git workflow with Bitbucket involves more than just creating pull requests. It's about adopting a comprehensive approach that encompasses branching, committing, testing, reviewing, documenting, versioning, leveraging Git hooks, and utilizing collaborative tools. A well-orchestrated Git workflow ensures a smooth and efficient development process, ultimately contributing to the success of the project.
 
 
-📝 For more information about Git Workflows, refer to this [Atlassian Article](https://www.atlassian.com/git/tutorials/comparing-workflows) about comparing Git workflows.
+📝 For more information about Git Workflows, refer to this [Atlassian Article](https://www.atlassian.com/git/tutorials/comparing-workflows) about comparing Git workflows!
 
 
