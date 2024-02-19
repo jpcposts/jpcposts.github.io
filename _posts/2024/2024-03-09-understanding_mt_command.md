@@ -5,7 +5,7 @@ categories: [tape, command, linux]
 tags: [tape, command, linux]
 ---
 
-![Purposes of a Wrapper Script in RHEL](/assets/img/posts/2024/wrapper_script/wrapper_script.jpg)
+![Understanding Tape Operations with the `mt` Command](/assets/img/posts/2024/understanding_mt_command/understanding_mt_command.jpg)
 
 
 ## Introduction:
