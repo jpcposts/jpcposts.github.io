@@ -36,6 +36,7 @@ mt [-f device] command [count]
 mt -f /dev/tape rewind
 ```
 - Purpose
+
 Moves the tape to the beginning
 
 ### 2. Forward
@@ -44,6 +45,7 @@ Moves the tape to the beginning
 mt -f /dev/tape fsf [count]
 ```
 - Purpose
+
 Skips forward by the specified count files.
 
 ### 3. Backward
@@ -52,6 +54,7 @@ Skips forward by the specified count files.
 mt -f /dev/tape bsf [count]
 ```
 - Purpose
+
 Skips backward by the specified count files.
 
 ### 4. Erase
@@ -60,6 +63,7 @@ Skips backward by the specified count files.
 mt -f /dev/tape erase
 ```
 - Purpose
+
 Erases the tape.
 
 ### 5. Status
@@ -68,6 +72,7 @@ Erases the tape.
 mt -f /dev/tape status
 ```
 - Purpose
+
 Displays status information about the tape.
 
 
