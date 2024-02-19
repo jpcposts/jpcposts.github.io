@@ -1,6 +1,6 @@
 ---
 title: Understanding Tape Operations with the `mt` Command
-date: 2024-02-18 01:00:00 -0500
+date: 2024-03-09 01:00:00 -0500
 categories: [tape, command, linux]
 tags: [tape, command, linux]
 ---
