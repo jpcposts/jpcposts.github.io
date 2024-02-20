@@ -102,6 +102,6 @@ You may include the `sudo aide --check` command into a cron job and push it to a
 By implementing AIDE as part of your security strategy, you fortify your Linux system against unauthorized changes, providing an additional layer of defense in the ever-evolving landscape of cybersecurity.
 
 
-📝 For more information about RHEL9 AIDE, refer to this [Red Hat Customer Portal Article](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/security_hardening/checking-integrity-with-aide_security-hardening).
+📝 For more information about RHEL9 AIDE, refer to this [Red Hat Customer Portal Article](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/security_hardening/checking-integrity-with-aide_security-hardening)!
 
 
