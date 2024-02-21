@@ -1,6 +1,6 @@
 ---
 title: Configuring Splunk Forwarder on RHEL 9
-date: 2024-02-21 01:00:00 -0500
+date: 2024-03-12 01:00:00 -0500
 categories: [splunk, rhel, linux]
 tags: [splunk, rhel, linux]
 ---
