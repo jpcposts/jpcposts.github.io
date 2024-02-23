@@ -61,7 +61,7 @@ tail -f nohup.out
 
 ## Conclusion:
 
-In a world where remote server management is commonplace, dealing with SSH session time limits is inevitable. The `nohup` command emerges as a savior, ensuring that your critical processes continue undisturbed even when faced with the constraints of SSH session duration. By incorporating `nohup` into your workflow, you empower yourself to execute tasks with confidence, knowing that interruptions won't hinder their completion.
+In a world where remote server management is commonplace, dealing with SSH session time limits is inevitable. The `nohup` command servers as a savior, ensuring that your critical processes continue undisturbed even when faced with the constraints of SSH session duration. By incorporating `nohup` into your workflow, you empower yourself to execute tasks with confidence, knowing that interruptions won't hinder their completion.
 
 
 📝 For more information about nohup, refer to the [nohup Man Page](https://linux.die.net/man/1/nohup).
