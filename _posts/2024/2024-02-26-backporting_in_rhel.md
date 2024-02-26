@@ -60,4 +60,4 @@ Backporting plays a pivotal role in the Red Hat Enterprise Linux ecosystem, cont
 In the ever-changing landscape of technology, RHEL's commitment to backporting reaffirms its dedication to providing a solid foundation for businesses that rely on a stable and secure operating system.
 
 
-📝 For more information about backporting, refer to this [RedHat Knowledgebase Article](https://access.redhat.com/solutions/57665).
+📝 For more information about backporting, refer to this [RedHat Knowledgebase Article](https://access.redhat.com/solutions/57665)...
