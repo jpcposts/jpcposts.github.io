@@ -11,7 +11,7 @@ tags: [ssh, linux, security]
 
 ## Introduction:
 
-In a continuous effort to enhance security measures, GitHub has recently implemented changes to its authentication process. One notable update involves the [mandatory use of Two-Factor Authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication#) for accessing GitHub accounts. This blog post will walk you through the significance of this change and guide you on how to adapt to the new authentication requirements. 
+In a continuous effort to enhance security measures, GitHub has recently implemented changes to its authentication process. One notable update involves the [mandatory use of Two-Factor Authentication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication#) for accessing GitHub accounts. This blog post will walk you through the significance of this change and guide you on how to adapt to the new requirements. 
 
 ## Why Two-Factor Authentication?
 
