@@ -1,8 +1,8 @@
 ---
 title: GitHub Authentication Changes - Embracing Two-Factor Authentication (2FA)
 date: 2024-02-29 01:00:00 -0500
-categories: [ssh, linux, security]
-tags: [ssh, linux, security]
+categories: [ssh, linux, security, github]
+tags: [ssh, linux, security, github]
 ---
 
 ![GitHub Authentication Changes](/assets/img/posts/2024/github_authentication_changes/github_authentication_changes.jpg)
