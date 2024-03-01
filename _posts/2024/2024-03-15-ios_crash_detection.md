@@ -1,6 +1,6 @@
 ---
 title: Utilizing Crash Detection on iOS Devices
-date: 2024-03-01 01:00:00 -0500
+date: 2024-03-15 01:00:00 -0500
 categories: [ios, apple]
 tags: [ios, apple]
 ---
