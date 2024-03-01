@@ -5,12 +5,8 @@ categories: [ios, apple]
 tags: [ios, apple]
 ---
 
-
-<!--
 ![Utilizing Crash Detection on iOS Devices](/assets/img/posts/2024/ios_crash_detection/ios_crash_detection.png)
--->
 
-<img src="/assets/img/posts/2024/ios_crash_detection/ios_crash_detection.png" alt="Utilizing Crash Detection on iOS Devices" width="600" height="400">
 
 In the event of a severe car crash, your iPhone or Apple Watch can play a crucial role in connecting you to emergency services. This feature, known as **Crash Detection**, is designed to work seamlessly on specific iPhone and Apple Watch models. Let's delve into how it operates and the steps to set it up on your devices.
 
