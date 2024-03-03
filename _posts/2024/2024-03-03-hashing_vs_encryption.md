@@ -21,7 +21,7 @@ Hashing is a **one-way** cryptographic function that transforms input data, such
 - **Password Storage:**
   Hashing is commonly used to store passwords securely. Instead of storing actual passwords, systems store the hash values generated from those passwords. During authentication, the entered password's hash is compared to the stored hash for validation.
 - **Data Integrity:**
-  Hashing ensures data integrity by producing a unique hash value for unique input. Even a minor change in input results in a substantially different hash, making it suitable for data integrity verification.
+  Hashing ensures data integrity by producing a unique hash value for unique input. Even a small change in input results in a substantially different hash, making it suitable for data integrity verification.
 
 ## Encryption:
 
