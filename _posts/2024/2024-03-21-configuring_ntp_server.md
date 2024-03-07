@@ -1,6 +1,6 @@
 ---
 title: Configuring an NTP Server and Synchronizing Time with a Client
-date: 2024-03-07 01:00:00 -0500
+date: 2024-03-21 01:00:00 -0500
 categories: [ntp, time, linux, rhel]
 tags: [ntp, time, linux, rhel]
 ---
