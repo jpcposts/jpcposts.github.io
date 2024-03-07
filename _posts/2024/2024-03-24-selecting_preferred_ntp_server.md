@@ -1,6 +1,6 @@
 ---
 title: Selecting the Preferred NTP Server for Time Synchronization
-date: 2024-03-07 01:00:00 -0500
+date: 2024-03-24 01:00:00 -0500
 categories: [ntp, time, linux, rhel]
 tags: [ntp, time, linux, rhel]
 ---
