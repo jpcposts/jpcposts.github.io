@@ -89,4 +89,4 @@ The `mt` command proves to be an invaluable tool for managing tape operations in
 As you delve into the world of tape-based storage and backup solutions, understanding the `mt` command will undoubtedly enhance your ability to manage and control magnetic tape operations effectively.
 
 
-📝 For more information about the `mt` command, you can refer to the [mt man page](https://linux.die.net/man/1/mt).
+📝 For more information about the `mt` command, you can refer to the [mt man page](https://linux.die.net/man/1/mt)!
