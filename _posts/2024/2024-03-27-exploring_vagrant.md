@@ -1,6 +1,6 @@
 ---
 title: Exploring Vagrant - A Comprehensive Guide
-date: 2024-03-12 01:00:00 -0500
+date: 2024-03-27 01:00:00 -0500
 categories: [vagrant, virtualization, virtual machines]
 tags: [vagrant, virtualization, virtual machines]
 ---
