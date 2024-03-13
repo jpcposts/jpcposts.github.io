@@ -1,6 +1,6 @@
 ---
 title: Understanding the tr Command
-date: 2024-03-12 01:00:00 -0500
+date: 2024-03-30 01:00:00 -0500
 categories: [rhel, linux, terminal]
 tags: [rhel, linux, terminal]
 ---
