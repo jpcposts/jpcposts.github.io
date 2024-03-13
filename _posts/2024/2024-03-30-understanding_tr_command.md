@@ -39,7 +39,7 @@ Here are some common options used with the `tr` command:
 To convert all lowercase characters in a file to uppercase, you can use the following command:
 
 ```bash
-tr '[:lower:]' '[:upper:]' < input.txt > output.txt
+tr [:lower:] [:upper:] < input.txt > output.txt
 ```
 
 ### Example 2: Deleting Characters
@@ -47,7 +47,7 @@ tr '[:lower:]' '[:upper:]' < input.txt > output.txt
 To remove all digits from a text file, you can use the following command:
 
 ```bash
-tr -d '0-9' < input.txt > output.txt
+tr -d 0-9 < input.txt > output.txt
 ```
 
 
