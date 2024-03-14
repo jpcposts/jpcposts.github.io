@@ -5,7 +5,8 @@ categories: [networking, firewall, juniper, review]
 tags: [networking, firewall, juniper, review]
 ---
 
-![Deep Dive into the Juniper SRX345 Firewall](/assets/img/posts/2024/juniper_srx345_firewall/juniper_srx345_firewall1.jpg)
+![Deep Dive into the Juniper SRX345 Firewall](/assets/img/posts/2024/juniper_srx345_firewall/juniper_srx345_firewall2.jpg)
+![Deep Dive into the Juniper SRX345 Firewall](/assets/img/posts/2024/juniper_srx345_firewall/juniper_srx345_firewall3.jpg)
 
 
 ## Introduction
