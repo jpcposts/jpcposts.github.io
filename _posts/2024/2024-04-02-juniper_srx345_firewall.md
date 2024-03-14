@@ -1,6 +1,6 @@
 ---
 title: Deep Dive into the Juniper SRX345 Firewall
-date: 2024-03-13 01:00:00 -0500
+date: 2024-04-02 01:00:00 -0500
 categories: [networking, firewall, juniper, review]
 tags: [networking, firewall, juniper, review]
 ---
