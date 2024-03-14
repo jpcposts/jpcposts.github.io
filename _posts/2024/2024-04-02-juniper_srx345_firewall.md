@@ -1,11 +1,11 @@
 ---
 title: Deep Dive into the Juniper SRX345 Firewall
-date: 2024-04-02 01:00:00 -0500
+date: 2024-03-14 01:00:00 -0500
 categories: [networking, firewall, juniper, review]
 tags: [networking, firewall, juniper, review]
 ---
 
-![Deep Dive into the Juniper SRX345 Firewall](/assets/img/posts/2024/juniper_srx345_firewall/juniper_srx345_firewall.jpg)
+![Deep Dive into the Juniper SRX345 Firewall](/assets/img/posts/2024/juniper_srx345_firewall/juniper_srx345_firewall1.jpg)
 
 
 ## Introduction
@@ -50,4 +50,4 @@ The Juniper SRX345 firewall offers a comprehensive suite of security features an
 
 
 
-📝 For more information about the Juniper SRX345, you can refer to the [official documenation](https://www.juniper.net/documentation/product/us/en/srx345/).
+📝 For more information about the Juniper SRX345, you can refer to the [official documentation](https://www.juniper.net/documentation/product/us/en/srx345/).
