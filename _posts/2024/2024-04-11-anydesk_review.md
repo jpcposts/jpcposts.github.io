@@ -50,4 +50,4 @@ Overall, AnyDesk is a reliable and feature-rich remote desktop software solution
 
 
 
-📝 For more information about AnyDesk, you can refer to the [AnyDesk Quick Start Guide](https://support.anydesk.com/knowledge/quick-start-guide).
+📝 For AnyDesk configuration instructions, you can refer to the [AnyDesk Quick Start Guide](https://support.anydesk.com/knowledge/quick-start-guide).
