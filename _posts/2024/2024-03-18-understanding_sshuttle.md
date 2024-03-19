@@ -100,4 +100,4 @@ Use tools like `tcpdump` or Wireshark to inspect encrypted traffic on the local 
 By mastering the configuration and usage of `sshuttle`, you empower yourself to navigate the complexities of secure networking with ease. It's time to enhance your remote connectivity toolkit with the simplicity and effectiveness of `sshuttle`.
 
 
-📝 For more information about sshuttle, you can refer to the [sshuttle GitHub Page](https://github.com/sshuttle/sshuttle).
+📝 For more information about sshuttle, you can refer to the [sshuttle GitHub Page](https://github.com/sshuttle/sshuttle)!
