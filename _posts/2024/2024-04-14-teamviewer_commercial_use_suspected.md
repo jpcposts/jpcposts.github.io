@@ -1,8 +1,8 @@
 ---
 title: Understanding the "Commercial Use Suspected" Message in TeamViewer Free Version
-date: 2024-03-19 01:00:00 -0500
-categories: [remote, remote-access, rdp, review]
-tags: [remote, remote-access, rdp, review]
+date: 2024-04-14 01:00:00 -0500
+categories: [remote, remote-access, teamviewer]
+tags: [remote, remote-access, teamviewer]
 ---
 
 ![Understanding the "Commercial Use Suspected" Message in TeamViewer Free Version](/assets/img/posts/2024/teamviewer_commercial_use_suspected/teamviewer_commercial_use_suspected.png)
