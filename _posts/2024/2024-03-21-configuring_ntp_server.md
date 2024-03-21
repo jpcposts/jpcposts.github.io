@@ -113,4 +113,4 @@ This command should display the NTP sources and indicate if synchronization is s
 Configuring an NTP server on RHEL 9 and synchronizing time on a client ensures accurate timekeeping across your systems. Proper time synchronization is crucial for various system operations, log management, and security protocols.
 
 
-📝 For more information about using Chrony for NTP configurations, you can refer to the [RedHat Customer Portal Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_basic_system_settings/configuring-time-synchronization_configuring-basic-system-settings).
+📝 For more information about using Chrony for NTP configurations, you can refer to the official [RedHat Customer Portal Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_basic_system_settings/configuring-time-synchronization_configuring-basic-system-settings).
