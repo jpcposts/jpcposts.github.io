@@ -10,7 +10,7 @@ tags: [ntp, time, linux, rhel]
 
 ## Introduction
 
-Accurate time synchronization is crucial for the proper functioning of servers. The Network Time Protocol (NTP) plays a vital role in ensuring that systems maintain synchronized time. When configuring NTP for your systems, it's important to choose reliable and accurate NTP servers. In this guide, we will explore the process of selecting a preferred NTP server for time synchronization.
+Accurate time synchronization is crucial for the proper functioning of servers. The Network Time Protocol (NTP) plays an important role in ensuring that systems maintain synchronized time. When configuring NTP for your systems, it's important to choose reliable and accurate NTP servers. In this guide, we will explore the process of selecting a preferred NTP server for time synchronization.
 
 ## Why Choose a Preferred NTP Server?
 
