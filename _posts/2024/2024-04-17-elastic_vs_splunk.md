@@ -1,6 +1,6 @@
 ---
 title: Elastic vs. Splunk - A Comparative Analysis
-date: 2024-03-26 01:00:00 -0500
+date: 2024-04-17 01:00:00 -0500
 categories: [elastic, splunk, logmanagement]
 tags: [elastic, splunk, logmanagement]
 ---
@@ -15,7 +15,7 @@ When it comes to log management and analysis, two prominent solutions often come
 ## Elastic
 
 ### Overview
-Elastic, also known as the Elastic Stack or ELK Stack, is an open-source platform that includes Elasticsearch for search and analytics, Logstash for log data collection and processing, and Kibana for data visualization and exploration. It's highly scalable, flexible, and widely adopted for log management, monitoring, and observability use cases.
+[Elastic](https://www.elastic.co), also known as the Elastic Stack or ELK Stack, is an open-source platform that includes Elasticsearch for search and analytics, Logstash for log data collection and processing, and Kibana for data visualization and exploration. It's highly scalable, flexible, and widely adopted for log management, monitoring, and observability use cases.
 
 ### Key Features
 - Distributed architecture for scalability and high availability.
@@ -38,7 +38,7 @@ Elastic, also known as the Elastic Stack or ELK Stack, is an open-source platfor
 ## Splunk
 
 ### Overview
-Splunk is a proprietary software platform that provides a range of solutions for log management, security, IT operations, and business analytics. It offers a unified platform for collecting, indexing, and analyzing machine-generated data from various sources, including logs, metrics, and events.
+[Splunk](https://docs.splunk.com/Documentation) is a proprietary software platform that provides a range of solutions for log management, security, IT operations, and business analytics. It offers a unified platform for collecting, indexing, and analyzing machine-generated data from various sources, including logs, metrics, and events.
 
 ### Key Features
 - User-friendly interface with intuitive search and visualization tools.
@@ -78,4 +78,4 @@ Both Elastic and Splunk offer powerful solutions for log management and analysis
 
 
 
-📝 For more information, you can refer to this [BetterStack article](https://betterstack.com/community/comparisons/splunk-vs-elastic-stack-elk/)for additional information.
+📝 For more information, you can refer to this [BetterStack article](https://betterstack.com/community/comparisons/splunk-vs-elastic-stack-elk/) for additional information.
