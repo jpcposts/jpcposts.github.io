@@ -1,6 +1,6 @@
 ---
 title: Fixing "Outlook Rules Not Supported for This Account" Error on Mac
-date: 2024-03-23 01:00:00 -0500
+date: 2024-04-23 01:00:00 -0500
 categories: [mac, outlook, email]
 tags: [mac, outlook, email]
 ---
