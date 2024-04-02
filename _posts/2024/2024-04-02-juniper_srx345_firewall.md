@@ -51,4 +51,4 @@ The Juniper SRX345 firewall offers a comprehensive suite of security features an
 
 
 
-📝 For more information about the Juniper SRX345, you can refer to the [official documentation](https://www.juniper.net/documentation/product/us/en/srx345/).
+📝 For more information about the Juniper SRX345, you can refer to the Juniper [official documentation](https://www.juniper.net/documentation/product/us/en/srx345/).
