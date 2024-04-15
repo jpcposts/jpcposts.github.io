@@ -42,9 +42,7 @@ An Incremental backup captures only the data that has changed since the last bac
 Selecting the appropriate backup strategy depends on factors such as data volume, storage capacity, backup frequency, and recovery objectives. Here are some considerations:
 
 - **Full Backup**: Ideal for critical data that requires frequent access and rapid recovery. Suitable for smaller datasets or when storage space is not a constraint.
-  
 - **Differential Backup**: Balances storage efficiency with data recovery speed. Suitable for moderate-sized datasets with moderate change rates.
-  
 - **Incremental Backup**: Maximizes storage efficiency but may lead to longer restoration times. Ideal for large datasets with relatively low change rates and sufficient bandwidth for data recovery.
 
 ## Conclusion
