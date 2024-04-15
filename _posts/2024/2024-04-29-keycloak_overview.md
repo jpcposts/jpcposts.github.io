@@ -1,14 +1,12 @@
 ---
 title: Understanding Keycloak - An Overview
-date: 2024-04-13 01:00:00 -0500
+date: 2024-04-29 01:00:00 -0500
 categories: [keycloak, SSO, authentication]
 tags: [keycloak, SSO, authentication]
 ---
 
 ![Understanding Keycloak - An Overview](/assets/img/posts/2024/keycloak_overview/keycloak_overview.jpg)
 
-
-# Understanding Keycloak: An Overview
 
 If you're in search of an identity and access management system without breaking the bank, Keycloak might be the solution for you. Keycloak is an open-source identity and access management software that offers a range of features to help manage user authentication and authorization efficiently.
 
