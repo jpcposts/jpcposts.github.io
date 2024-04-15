@@ -1,6 +1,6 @@
 ---
 title: Overview of Prometheus and Grafana
-date: 2024-04-13 01:00:00 -0500
+date: 2024-05-02 01:00:00 -0500
 categories: [prometheus, grafana, network, monitoring]
 tags: [prometheus, grafana, network, monitoring]
 ---
