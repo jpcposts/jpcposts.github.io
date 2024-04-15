@@ -37,4 +37,4 @@ If you encounter the "Commercial Use Suspected" message while using TeamViewer's
 The "Commercial Use Suspected" message in TeamViewer's free version is a notification designed to identify potential commercial usage of the software. While encountering this message may be inconvenient for users who intended to use TeamViewer for personal purposes, it reflects TeamViewer's commitment to enforcing its licensing terms and protecting its commercial interests. By understanding why the message appears and taking appropriate actions such as submitting a declaration of personal use or purchasing a commercial license, users can continue to enjoy the benefits of TeamViewer while ensuring compliance with its terms of use.
 
 
-📝 For detailed instructions, you can refer to the [Official TeamViewer Documentation](https://community.teamviewer.com/English/kb/articles/5265-commercial-use-suspected) concerning this issue.
+📝 For detailed instructions, you can refer to the [Official TeamViewer Documentation](https://community.teamviewer.com/English/kb/articles/5265-commercial-use-suspected) concerning this specific issue.
