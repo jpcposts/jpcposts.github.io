@@ -1,6 +1,6 @@
 ---
 title: Overview of Deduplication
-date: 2024-04-13 01:00:00 -0500
+date: 2024-04-23 01:00:00 -0500
 categories: [deduplication, backups]
 tags: [deduplication, backups]
 ---
@@ -12,21 +12,21 @@ Deduplication is a critical technology in online backup and recovery solutions. 
 
 ## Types of Deduplication
 
-There are two main types of deduplication: file-level deduplication and block-level deduplication.
+There are two main types of deduplication: `file-level deduplication` and `block-level deduplication`.
 
 ### File-Level Deduplication
 
-File-level deduplication identifies identical files across multiple users and stores only one copy of each file in the data center. However, if any user modifies their file, the system treats it as a unique file, resulting in redundant storage of slightly modified files.
+`File-level deduplication` identifies identical files across multiple users and stores only one copy of each file in the data center. However, if any user modifies their file, the system treats it as a unique file, resulting in redundant storage of slightly modified files.
 
 ### Block-Level Deduplication
 
-Block-level deduplication breaks files into smaller blocks or chunks and compares them across users. It only stores unique blocks, significantly reducing storage space and bandwidth usage. This method is more efficient as it identifies and eliminates duplicate data at a granular level.
+`Block-level deduplication` breaks files into smaller blocks or chunks and compares them across users. It only stores unique blocks, significantly reducing storage space and bandwidth usage. This method is more efficient as it identifies and eliminates duplicate data at a granular level.
 
 ## Understanding Block-Level Deduplication
 
 Block-level deduplication operates by dividing files into blocks and storing only unique blocks in the data center. Let's illustrate this with an example:
 
-- Adam, Ted, and Bob each have files with blocks numbered 1 to 5.
+- Mike, Tim, and James each have files with blocks numbered 1 to 5.
 - Each user backs up their files to the same data center.
 - The deduplication software identifies common blocks across users and stores them only once.
 - Unique blocks are backed up individually, minimizing storage requirements and bandwidth usage.
