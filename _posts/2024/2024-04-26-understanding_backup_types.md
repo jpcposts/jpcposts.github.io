@@ -1,6 +1,6 @@
 ---
 title: Understanding Backup Types - Full, Differential, and Incremental
-date: 2024-04-13 01:00:00 -0500
+date: 2024-04-26 01:00:00 -0500
 categories: [backups, data]
 tags: [backups, data]
 ---
