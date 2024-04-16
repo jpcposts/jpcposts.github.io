@@ -1,6 +1,6 @@
 ---
 title: Overview of GitLab - Your One-Stop DevOps Solution
-date: 2024-04-15 01:00:00 -0500
+date: 2024-05-08 01:00:00 -0500
 categories: [gitlab, devops, cicd]
 tags: [gitlab, devops, cicd]
 ---
