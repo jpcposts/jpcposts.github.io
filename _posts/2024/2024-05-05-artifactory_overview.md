@@ -1,6 +1,6 @@
 ---
 title: Overview of JFrog Artifactory
-date: 2024-04-15 01:00:00 -0500
+date: 2024-05-05 01:00:00 -0500
 categories: [jfrog, artifactory, repository]
 tags: [jfrog, artifactory, repository]
 ---
