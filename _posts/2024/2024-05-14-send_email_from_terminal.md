@@ -1,6 +1,6 @@
 ---
 title: Sending Email from Terminal in RHEL 9
-date: 2024-04-22 01:00:00 -0500
+date: 2024-05-14 01:00:00 -0500
 categories: [linux, rhel, terminal, email]
 tags: [linux, rhel, terminal, email]
 ---
