@@ -20,10 +20,10 @@ sudo dnf install postfix
 
 ## Configuring Postfix
 
-After installing Postfix, you need to configure it by editing the /etc/postfix/main.cf file. Append or modify the following parameters according to your SMTP server settings:
+After installing Postfix, you need to configure it by editing the `/etc/postfix/main.cf` file. Append or modify the following parameters according to your SMTP server settings:
 
-- `myhostname`: Set the hostname of your server, such as `example.com`.
-`relayhost`: Specify the IP address or hostname of the relay server you want to use, such as `[smtp.gmail.com]:587`.
+- `myhostname`: Set the hostname of your server, such as `example.com`. This should typically be the fully qualified domain name of the server.
+- `relayhost`: Specify the IP address or hostname of the relay server you want to use, such as `[smtp.gmail.com]:587`.
 - `smtp_use_tls`: Set it to `yes` if your relay server supports TLS encryption, or `no` otherwise.
 - `smtp_sasl_auth_enable`: Set it to `yes` if your relay server requires SASL authentication, or `no` otherwise.
 - `smtp_sasl_password_maps`: Specify the file containing the username and password for your relay server, such as `hash:/etc/postfix/sasl_passwd`.
