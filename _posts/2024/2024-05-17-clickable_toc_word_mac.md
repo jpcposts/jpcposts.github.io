@@ -1,6 +1,6 @@
 ---
 title: Creating a Clickable Table of Contents in Microsoft Word on Mac
-date: 2024-04-27 01:00:00 -0500
+date: 2024-05-17 01:00:00 -0500
 categories: [word, mac, office]
 tags: [word, mac, office]
 ---
