@@ -1,6 +1,6 @@
 ---
 title: Generating a SOS Report for RedHat Support
-date: 2024-04-27 01:00:00 -0500
+date: 2024-05-20 01:00:00 -0500
 categories: [redhat, sosreport, linux]
 tags: [redhat, sosreport, linux]
 ---
