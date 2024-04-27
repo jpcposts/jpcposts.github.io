@@ -31,7 +31,7 @@ Once your headings are formatted correctly, you can insert a table of contents i
 
 ## Step 3: Make the Table of Contents Clickable
 
-**NOTE : In newer versions of Office for Mac this section may not be necessary. I tested this with Word for Mac via a Microsoft 365 Subscription.**
+<span style="color:red"> **NOTE : In newer versions of Office for Mac this section may not be necessary. I tested this with Word for Mac via a Microsoft 365 Subscription.** </span>
 
 To make your table of contents clickable, you'll need to enable the "Insert Hyperlink" feature for each heading:
 
