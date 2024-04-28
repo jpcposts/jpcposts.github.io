@@ -41,6 +41,10 @@ This command will display the top 10 processes consuming CPU and memory every se
 
 You can also use the watch command to track changes in files or directories. For example, if you want to monitor changes in a specific file, you can use the cat command along with watch:
 
+```bash
+watch -n 2 'cat /var/log/messages | tail -n 5'
+```
+
 This command will display the last 5 lines of the /var/log/messages file every 2 seconds, allowing you to track new log entries as they occur.
 
 ## Conclusion
