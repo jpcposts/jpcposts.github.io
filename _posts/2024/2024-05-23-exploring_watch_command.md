@@ -1,6 +1,6 @@
 ---
 title: Exploring the Watch Command
-date: 2024-04-27 01:00:00 -0500
+date: 2024-05-23 01:00:00 -0500
 categories: [redhat, terminal, linux]
 tags: [redhat, terminal, linux]
 ---
