@@ -1,6 +1,6 @@
 ---
 title: Unveiling the New CompTIA Xpert Series Certifications
-date: 2024-04-28 01:00:00 -0500
+date: 2024-05-26 01:00:00 -0500
 categories: [comptia, certifications, education]
 tags: [comptia, certifications, education]
 ---
