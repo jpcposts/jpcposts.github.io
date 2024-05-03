@@ -9,7 +9,7 @@ tags: [prometheus, grafana, network, monitoring]
 
 Prometheus and Grafana are essential tools for monitoring and visualizing metrics in modern IT environments. Prometheus, a robust monitoring tool, helps you keep a close eye on your infrastructure devices, including servers, networking devices, and batch jobs. It collects various metrics such as CPU utilization, memory usage, and network bandwidth, providing valuable insights into the health and performance of your systems.
 
-Grafana, on the other hand, is a powerful dashboarding tool that takes visualization to the next level. With Grafana, you can create stunning dashboards and visualizations that allow you to monitor and analyze your Prometheus data in real-time. By integrating Prometheus with Grafana, you can gain deeper insights into your system's performance and make informed decisions to optimize its efficiency.
+Grafana, on the other hand, is a powerful dashboarding tool that takes visualization to the next level. With Grafana, you can create stunning dashboards and visualizations that allow you to monitor and analyze your Prometheus data in real-time. By integrating Prometheus with Grafana, you can gain deeper insights into your system's performance and make informed decisions to optimize efficiency.
 
 ## Prometheus Architecture
 
