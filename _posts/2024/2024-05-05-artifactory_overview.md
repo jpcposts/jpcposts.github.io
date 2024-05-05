@@ -22,7 +22,7 @@ Creating and managing repositories is made easy with Artifactory's intuitive int
 
 ## Permission Control
 
-Artifactory enables granular control over repository access and operations through permissions. By defining permission targets and associating them with users or groups, you can specify who has access to which repositories and what actions they can perform. This ensures secure and efficient management of your artifacts and dependencies.
+Artifactory enables granular control over repository access and operations through permissions. By defining permission targets and associating them with users or groups, you can specify who has access to which repositories and what actions they can perform. This ensures secure and efficient management of your various artifacts and dependencies.
 
 ## Integration with CI/CD Pipelines
 
